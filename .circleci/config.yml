@@ -14,7 +14,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "62:4d:ab:56:f5:10:07:b0:1a:41:02:ea:fa:ae:98:93"
+            - "8d:ae:2c:a0:8b:4b:c0:49:d0:5e:d9:f0:d3:5c:8c:7e"
       - checkout
 
       - restore_cache:
@@ -52,8 +52,8 @@ jobs:
 
               sudo npm run build
               # write my custom domain name into the CNAME file
-              echo "mouwang.github.io" > dist/CNAME
-              cp -a dist/. out/.
+              # echo "mouwang.github.io" > dist/CNAME
+              cp -a docs/.vuepress/dist out/.
 
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
               cd out
