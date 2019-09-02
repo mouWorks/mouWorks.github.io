@@ -1,6 +1,4 @@
 # MouWorks doc
----
 
-## mouworks.github.io !
-
+* mouworks.github.io
 * Blog && Doc && BlackBeltTips
