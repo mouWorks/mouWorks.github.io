@@ -55,7 +55,7 @@ jobs:
               #echo "doc.m0u.work" > docs/.vuepress/dist/CNAME
               cp -a docs/.vuepress/dist out/.
 
-              mkdir -p out/.circleci && cp -a .circleci/. out/dist/.circleci/.
+              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
               cd out/dist
 
               git add -A
