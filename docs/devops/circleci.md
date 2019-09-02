@@ -212,3 +212,7 @@ workflows:
      - ./node_modules/
 ```
 
+### 自訂SlackMessage
+
+* 要從CircleCI UI 介面去設定 `webhook` (full url)
+* [Orb文件](https://circleci.com/orbs/registry/orb/circleci/slack)
