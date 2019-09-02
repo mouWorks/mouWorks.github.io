@@ -7,6 +7,11 @@
 * Cache機制要設定也較為複雜
 * 支援Bitbucket (Travis不支援Bitbucket)
 * 設定好的話, 平行跑起來可能可以很快
+* 預設的Slack通知不能自訂格式, `2.1` 以上的版本配合 `orb` 就可以自訂內容 
+    * 可參考本Repo的 config.yml, 有以下
+    * `2.1`版語法
+    * `orb` + 自定Slack通知
+    * `node_module` 做Cache
 
 ## 資料結構: 
 
