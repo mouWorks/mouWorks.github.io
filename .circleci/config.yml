@@ -50,7 +50,7 @@ jobs:
               git rm -rf .
               cd ..
 
-              npm run build
+              sudo npm run build
               # write my custom domain name into the CNAME file
               echo "mouwang.github.io" > dist/CNAME
               cp -a dist/. out/.
