@@ -52,7 +52,7 @@ jobs:
 
               sudo npm run build
               # write my custom domain name into the CNAME file
-              sudo echo "doc.m0u.work" > docs/.vuepress/distdist/CNAME
+              sudo echo "doc.m0u.work" > docs/.vuepress/dist/CNAME
               cp -a docs/.vuepress/dist/. out/.
 
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
