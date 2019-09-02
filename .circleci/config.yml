@@ -58,7 +58,7 @@ jobs:
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
               cd out
 
-              sudo echo "doc.m0u.work" > CNAME
+              #sudo echo "doc.m0u.work" > CNAME
 
 
               git add -A
