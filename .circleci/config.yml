@@ -12,7 +12,6 @@ jobs:
     environment:
       - SOURCE_BRANCH: src
       - TARGET_BRANCH: master
-      - SLACK_WEBHOOK: xHf9xPMW5gcQYk7BOPrBzAti
     steps:
       - add_ssh_keys:
           fingerprints:
