@@ -1,5 +1,10 @@
 #!/usr/bin/make -f
 BRANCH := $(shell git name-rev --name-only HEAD)
+
+build:
+	@echo ">>> Pulling vuepress"
+	npm i -g vuepress
+
 start:
 	@echo ">>> Bring up Local Docs"
 	vuepress dev docs
