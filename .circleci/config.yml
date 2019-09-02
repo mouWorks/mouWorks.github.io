@@ -52,9 +52,12 @@ jobs:
 
               sudo npm run build
               # write my custom domain name into the CNAME file
-              #echo "doc.m0u.work" > docs/.vuepress/dist/CNAME
-              cd docs/.vuepress/dist
-              git init
+              # echo "sunburst.wang" > dist/CNAME
+              cp -a docs/.vuepress/dist/. out/.
+
+              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
+              cd out
+
               git add -A
               git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
 
