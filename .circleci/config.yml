@@ -37,4 +37,6 @@ jobs:
 
       - deploy:
           name: Deploy (Push back to github)
-          command: ./circleci/circleci_deploy.sh
+          command: |
+            mv .circleci/circleci_deploy.sh .
+            ./circleci_deploy.sh
