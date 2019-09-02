@@ -56,7 +56,10 @@ jobs:
               cp -a docs/.vuepress/dist out/.
 
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
-              cd out/dist
+              cd out
+
+              #add this
+              cd dist
 
               git add -A
               git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
