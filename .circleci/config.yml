@@ -1,0 +1,65 @@
+version: 2
+jobs:
+  build:
+    branches:
+      ignore:
+        - master
+    docker:
+      - image: circleci/node:12.9
+
+    working_directory: ~/mouworks.github.io
+    environment:
+      - SOURCE_BRANCH: src
+      - TARGET_BRANCH: master
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "8d:ae:2c:a0:8b:4b:c0:49:d0:5e:d9:f0:d3:5c:8c:7e"
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: Install dependencies
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: Install Vuepress
+          command: sudo yarn global add vuepress
+
+      - deploy:
+          name: Deploy
+          command: |
+            if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
+              git config --global user.email "mou.wang@g.ncu.edu.tw"
+              git config --global user.name "mouWorks"
+
+              git clone $CIRCLE_REPOSITORY_URL out
+
+              cd out
+              git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+              git rm -rf .
+              cd ..
+
+              sudo npm run build
+              # write my custom domain name into the CNAME file
+              # echo "mouwang.github.io" > dist/CNAME
+              cp -a docs/.vuepress/dist out/.
+
+              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
+              cd out
+
+              git add -A
+              git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
+
+              git push origin $TARGET_BRANCH
+            fi
