@@ -1,9 +1,6 @@
-version: 2
+version: 2.1
 jobs:
   build:
-    branches:
-      ignore:
-        - master
     docker:
       - image: circleci/node:12.9
 
@@ -14,6 +11,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
+            # This key require additional setup @circleCI
             - "8d:ae:2c:a0:8b:4b:c0:49:d0:5e:d9:f0:d3:5c:8c:7e"
       - checkout
 
@@ -40,3 +38,12 @@ jobs:
           command: |
             mv .circleci/circleci_deploy.sh .
             ./circleci_deploy.sh
+workflows:
+  version: 2.1
+  build_and_auto_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - src

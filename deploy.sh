@@ -1,4 +1,5 @@
 # 确保脚本抛出遇到的错误
+# This is for local deploy script
 set -e
 
 # 生成静态文件
