@@ -1,4 +1,8 @@
 version: 2.1
+
+orbs:
+  slack: circleci/slack@3.3.0
+
 jobs:
   build:
     docker:
@@ -38,6 +42,11 @@ jobs:
           command: |
             mv .circleci/circleci_deploy.sh .
             ./circleci_deploy.sh
+      - slack/notify:
+          message: "Doc by CircleCI deploy complete !"
+#          mentions: "USERID1,USERID2," # Optional: Enter the Slack IDs of any user or group (sub_team) to be mentioned
+          color: "#42e2f4" # Optional: Assign custom colors for each notification
+            #        webhook: "webhook" # Optional: Enter a specific webhook here or the default will use $SLACK_WEBHOOK
 workflows:
   version: 2.1
   build_and_auto_deploy:
