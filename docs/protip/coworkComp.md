@@ -15,5 +15,8 @@
 * Speed Not checked yet
 * $6000 小桌 / $300 Locker
 * 24h 進出sss
+* Herman Miller Chair
 
 ## theHive
+
+* 台大醫院站
