@@ -39,6 +39,7 @@ module.exports = {
           { text: 'SlowLog', link: '/protip/slowlog.html'},
           { text: 'logrotate', link: '/protip/logrotate.html'},
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
+
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
@@ -53,6 +54,7 @@ module.exports = {
           { text: 'Site', link: 'https://m0u.work'},
           { text: 'Github', link: 'https://github.com/mouWorks'},
           { text: 'Resume', link: '/resume/resume.html'},
+          { text: 'coworkComp', link: '/protip/coworkComp.html'},
         ]
       }
     ],
