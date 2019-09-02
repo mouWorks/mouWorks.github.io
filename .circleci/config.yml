@@ -32,6 +32,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run:
+          name: Install Vuepress
+          command: sudo yarn global add vuepress
+
       - deploy:
           name: Deploy
           command: |
