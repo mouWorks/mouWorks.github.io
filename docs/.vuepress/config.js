@@ -11,7 +11,9 @@ module.exports = {
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
+  lastUpdated: 'Last Updated',
   themeConfig: {
+    repo: 'mouworks',
     nav:[ // 导航栏配置
       {text: 'DevOps', link: '/devops/',
         items: [
@@ -52,13 +54,29 @@ module.exports = {
       {text: 'About',
         items: [
           { text: 'Site', link: 'https://m0u.work'},
-          { text: 'Github', link: 'https://github.com/mouWorks'},
           { text: 'Resume', link: '/resume/resume.html'},
           { text: 'coworkComp', link: '/protip/coworkComp.html'},
         ]
       }
     ],
-    sidebar: 'auto',
-    sidebarDepth: 1, // 侧边栏显示2级
+    // sidebar: false
+    sidebar: [
+      {
+        title: 'MouWorks',   // required
+        path: '/',      // optional, which should be a absolute path.
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 1,    // optional, defaults to 1
+        children: [
+          '/'
+        ]
+      }],
+    serviceWorker: {
+      updatePopup: true, // Boolean | Object, default to undefined.
+      // If set to true, the default text config will be:
+      updatePopup: {
+         message: "New content is available.",
+         buttonText: "Refresh"
+      }
+    }
   }
 };
