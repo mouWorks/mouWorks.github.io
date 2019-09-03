@@ -59,17 +59,17 @@ module.exports = {
         ]
       }
     ],
-    // sidebar: false
-    sidebar: [
-      {
-        title: 'MouWorks',   // required
-        path: '/',      // optional, which should be a absolute path.
-        collapsable: true, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
-        children: [
-          '/'
-        ]
-      }],
+    sidebar: 'auto',
+    // sidebar: [
+    //   {
+    //     title: 'MouWorks',   // required
+    //     path: '/',      // optional, which should be a absolute path.
+    //     collapsable: true, // optional, defaults to true
+    //     sidebarDepth: 1,    // optional, defaults to 1
+    //     children: [
+    //       '/'
+    //     ]
+    //   }],
     serviceWorker: {
       updatePopup: true, // Boolean | Object, default to undefined.
       // If set to true, the default text config will be:
