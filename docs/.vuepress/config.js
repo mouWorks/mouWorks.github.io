@@ -41,7 +41,6 @@ module.exports = {
           { text: 'SlowLog', link: '/protip/slowlog.html'},
           { text: 'logrotate', link: '/protip/logrotate.html'},
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
-
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
