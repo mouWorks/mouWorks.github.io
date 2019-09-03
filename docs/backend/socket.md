@@ -106,13 +106,13 @@ stageMode 主要是用在給程式判斷是否要開啟 wss 所使用(start_gate
 檔案路徑:
 
 ```bash
-/home/ubuntu/th-gatewayworker/Applications/IRSApp/irs_app.env
+/home/ubuntu/PROJECT/Applications/PROJECTApp/project_app.env
 ```
 
 範例檔案路徑:
 
 ```bash
-/home/ubuntu/th-gatewayworker/Applications/IRSApp/irs_app_example.env
+/home/ubuntu/PROJECT/Applications/PROJECTApp/project_app_example.env
 ```
 
 ## 程式部屬
@@ -131,10 +131,6 @@ sudo php start.php reload
 ```
 
 手動部屬須注意的是 Master, Worker 等不同主機都需上去手動執行，如果以後有相關 Config 調整，必須記得手動處理。
-
-### Deployer 方式
-
-ssh 至 Forum QT (php7-mongo-search-dev) 主機, 至專案目錄如: `/home/ubuntu/gatewayworker`，執行指令
 
 ```bash
 dep deploy production

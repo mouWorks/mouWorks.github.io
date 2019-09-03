@@ -65,7 +65,7 @@
 3. 檢查 `/var/log/nginx/debug.log` 看哪裡會有問題
 
 * 502 Bad Gateway -> 上面那個 `php7.1-fpm.sock` 沒有設定好
-* 空白頁 -> `sites-avaliable/irs.conf` 內部需要加上一行 `cgi_param` 
+* 空白頁 -> `sites-avaliable/PROJECT.conf` 內部需要加上一行 `cgi_param` 
 * `fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;`
 * 最底下那行要補上, 白頁就消失了
 
@@ -80,7 +80,7 @@
 	
 ### 登進去了, DB卻連線不到: 看起來是 Curl 問題
 	`fastCGI sent in stderr: "PHP message: PHP Fatal error:  Un
-caught ErrorException: cURL library is not loaded in /home/ubuntu/irs/vendor/php-curl-class/php-curl-cl
+caught ErrorException: cURL library is not loaded in /home/ubuntu/PROJECT/vendor/php-curl-class/php-curl-cl
 ass/src/Curl/Curl.php:103`	
 
 * 重裝 curl 

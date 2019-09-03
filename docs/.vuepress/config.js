@@ -45,6 +45,12 @@ module.exports = {
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
+      {text: 'Study',
+        items: [
+          { text: '資料結構', link: '/study/data_structure.html'},
+          { text: '演算法', link: '/study/algo.html'},
+        ]
+      },
       {text: 'Projects',
         items: [
           { text: 'M1GA', link: '/projects/m1ga.html'},

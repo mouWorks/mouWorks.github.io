@@ -38,9 +38,9 @@ dep init
 
 ```bash
 cd /home/ubuntu
-sudo mkdir irs
-sudo chown COMPANY:www-data ./irs.
-sudo chmod g+s ./irs
+sudo mkdir PROJECT
+sudo chown COMPANY:www-data ./PROJECT.
+sudo chmod g+s ./PROJECT
 ```
 
 ### 在執行 deployer 的機器設定好 ssh config
