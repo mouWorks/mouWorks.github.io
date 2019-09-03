@@ -23,3 +23,13 @@
     * `make stop` - Stop the app
     * you need to manually remove docker images
 ----
+
+### Screenshots
+
+![image](/m1ga_screenshots/Intro.png)
+![image](/m1ga_screenshots/UserSelect.png)
+![image](/m1ga_screenshots/JobSelect.png)
+![image](/m1ga_screenshots/SalarySelect.png)
+![image](/m1ga_screenshots/ConditionSelect.png)
+![image](/m1ga_screenshots/DisplayResult.png)
+![image](/m1ga_screenshots/DisplayJobs.png)

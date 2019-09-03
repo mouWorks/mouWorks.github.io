@@ -59,7 +59,6 @@ public function sort($data)
 }
 ```
 
-## Dijkstra Alsorithm
+## Dijkstra Algorithm
 
 
-## 

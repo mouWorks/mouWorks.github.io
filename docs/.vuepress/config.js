@@ -43,11 +43,12 @@ module.exports = {
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
         ]
       },
-      {text: 'LeetCode', link: '/leetcode/'},
+      {text: 'Resume', link: '/resume/resume.html'},
       {text: 'Study',
         items: [
           { text: '資料結構', link: '/study/data_structure.html'},
           { text: '演算法', link: '/study/algo.html'},
+          { text: 'LeetCode', link: '/study/leetcode.html'},
         ]
       },
       {text: 'Projects',
@@ -59,7 +60,6 @@ module.exports = {
       {text: 'About',
         items: [
           { text: 'Site', link: 'https://m0u.work'},
-          { text: 'Resume', link: '/resume/resume.html'},
           { text: 'coworkComp', link: '/protip/coworkComp.html'},
         ]
       }
