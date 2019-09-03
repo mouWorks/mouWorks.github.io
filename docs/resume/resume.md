@@ -1,6 +1,6 @@
 # Resume
 
-## Contact
+### Contacts
 
 * Email: Updating....
 
@@ -13,7 +13,7 @@
 * CI架構整合既有測試元件
 * 開發新功能
 
-### 104 - Backend Developer
+### 104 
 #### Backend Developer
 * 2016/07-2019/02
 * 開發求職端產品網站
@@ -25,6 +25,9 @@
 * 開發,維護系統核心Api
 
 ## Skills
-* PHP Web Backend Development
+* PHP 網站後端開發
+* DevOps - CI導入及維護
+* DevOps - 整合開發環境 (Vagrant & Docker)
+* Phpunit 單元測試
 
 ## Projects
