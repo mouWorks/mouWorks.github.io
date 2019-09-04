@@ -12,7 +12,6 @@
 #### Info
 * [單人餐廳](https://www.creatrip.com/blog/2621)
 
-
 ## 9/5 (週四)  
 #### Flight : TPE(4pm) -> PUS(8pm)
 
@@ -36,7 +35,7 @@
 
 ## 9/8
 
-* 
+* 甘川洞文化村
 * PickOneSpot
 
 ## 9/9 PUS(9pm) -> TPE(1030pm)
@@ -47,13 +46,22 @@
 
 ---
 
+* MapOverview 
+  * ![img](/trip/overview.png)
+
 * 海雲台區
-  * ![img](/trip/theBeach)
+  * ![img](/trip/theBeach.png)
+  * 海雲台海水浴場
+  * 新世界Spa
 
 * 南浦洞
-  * ![img](/trip/theSouth)
+  * ![img](/trip/theSouth.png)
   * 巨人炸雞 (要排, 份量大建議四人)
   * BIFF廣場 - 糖餅
+  * 松島天空步道
+  * 甘川洞文化村
+  * 松島天空步道
+  * 五六島天空步道
   
 * 
 
