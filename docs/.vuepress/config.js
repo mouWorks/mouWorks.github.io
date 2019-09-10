@@ -61,6 +61,7 @@ module.exports = {
         items: [
           { text: 'Site', link: 'https://m0u.work'},
           { text: 'coworkComp', link: '/protip/coworkComp.html'},
+          { text: 'jpTrip', link: '/protip/jpTrip.html'},
         ]
       }
     ],
