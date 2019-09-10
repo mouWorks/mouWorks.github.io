@@ -7,9 +7,6 @@
 * 一張Pasmo 給 Jenn, 我用手機Suica
 * Laptop/Charger/轉接頭
 
-#### Info
-* [單人餐廳](https://www.creatrip.com/blog/2621)
-
 ## 9/11 (週三)
 #### Flight : TPE(4pm) -> NRT(7pm)
 
@@ -38,10 +35,13 @@
 * Hotel: JR駒達站
 
 ## 9/15 (週日)
-
-
 #### 準備回台 - 當天飛機
 
-* 
+* 8AM前往機場 (成田)
+* 11:50 飛機回台
 
 ---
+
+#### Info
+
+* 千葉幕張的三井Outlet
