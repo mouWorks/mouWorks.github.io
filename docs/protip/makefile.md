@@ -5,6 +5,15 @@
 2. .PHONY 的設定
 :::
 
+* EditorConfig 設定Makefile 
+    * 在你的專案目錄下面新增一個 `.editorconfig`, 加入以下內容, IDE(如phpStorm) 就會抓取到設定
+
+```editorconfig
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+```
+
 ## PHONY 的用法
 
 * 舉例

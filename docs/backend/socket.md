@@ -15,12 +15,16 @@
 * `worker` 
 
 ```
-當初為了維持 HA 以及 Scalable, 台灣的 socket Server 架設的方式為 Master-worker 分散式部屬方式，
+當初為了維持 HA 以及 Scalable, 台灣的 socket Server 架設的方式為 
+Master-worker 分散式部屬方式，
 Master 負責的部分為 gateway, register,
 Worker 的部分則為 Business Worker,因此如果發生系統瓶頸時, 
-看是在 gateway的部分或者 worker 的部分 loading 較高，即可新增 Master 或 Worker 的機器即可
+看是在 gateway的部分或者 worker 的部分 loading 較高，
+即可新增 Master 或 Worker 的機器即可
 ```
-因TH目前只有作答監控且使用者人數較低的原因，因此 Server 並沒有以分散式架構進行部屬，全部服務皆為同一台。
+
+因TH目前只有作答監控且使用者人數較低的原因，因此 Server 並沒有以分散式架構進行部屬，
+全部服務皆為同一台。
 
 ## Socket Server 操作
 
