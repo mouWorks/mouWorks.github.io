@@ -60,8 +60,12 @@ module.exports = {
       {text: 'About',
         items: [
           { text: 'Site', link: 'https://m0u.work'},
-          { text: 'coworkComp', link: '/protip/coworkComp.html'},
           { text: 'jpTrip', link: '/protip/jpTrip.html'},
+        ]
+      },
+      {text: 'Others',
+        items: [
+          { text: 'notes', link: '/others/note.html'},
         ]
       }
     ],
