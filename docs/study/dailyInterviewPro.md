@@ -19,8 +19,7 @@ Can you find a solution in O(n) time?
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 ---
 
@@ -37,8 +36,7 @@ function of max() which returns the maximum element in the stack
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 ---
 
@@ -55,8 +53,7 @@ Invert the binary tree in place. That is, all left children should become right 
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 ---
 
@@ -72,8 +69,7 @@ Given an integer k and a binary search tree, find the floor (less than or equal 
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 
 ---
@@ -97,8 +93,7 @@ Example:
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 
 ---
@@ -117,7 +112,7 @@ Output: 1
 * solution:
 
 ```
-
+Solution Not Ready Yet
 
 ```
 
@@ -127,7 +122,6 @@ Output: 1
 
 * recently asked by Facebook
 ```
-
 You are given a list of numbers, and a target number k. 
 Return whether or not there are two numbers in the list that add up to k.
 Example:
@@ -138,8 +132,7 @@ return true since 4 + 1 = 5.
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 ---
 
@@ -157,8 +150,7 @@ Output: [1, 1, 2, 2, 3, 3, 3]
 * solution:
 
 ```
-
-
+Solution Not Ready Yet
 ```
 ---
 
@@ -176,4 +168,81 @@ Output: 0 -> 1 -> 2 -> 3 -> 4 -> NULL
 * solution:
 
 ```
+Solution Not Ready Yet
+```
 
+---
+
+###  `2019/9/6` First and Last Indices of an Element in a Sorted Array
+
+* recently asked by AirBnb
+```
+Given a sorted array, A, with possibly duplicated elements, find the indices of the first and last occurrences of a target element, x. Return -1 if the target is not found.
+
+Example:
+Input: A = [1,3,3,5,7,8,9,9,9,15], target = 9
+Output: [6,8]
+
+Input: A = [100, 150, 150, 153], target = 150
+Output: [1,2]
+
+Input: A = [1,2,3,4,5,6,10], target = 9
+Output: [-1, -1]
+```
+
+* solution:
+
+```
+Solution Not Ready Yet
+```
+
+---
+
+###  `2019/9/5` Validate Balanced Parentheses
+
+* recently asked by Uber
+```
+Imagine you are building a compiler. Before running any code, the compiler must check that the parentheses in the program are balanced. Every opening bracket must have a corresponding closing bracket. We can approximate this using strings.
+
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+- Open brackets are closed by the same type of brackets.
+- Open brackets are closed in the correct order.
+- Note that an empty string is also considered valid.
+
+Example:
+Input: "((()))"
+Output: True
+
+Input: "[()]{}"
+Output: True
+
+Input: "({[)]"
+Output: False
+```
+
+* solution:
+
+```
+Solution Not Ready Yet
+```
+
+###  `2019/9/4` Longest Palindromic Substring
+
+* recently asked by Twitter
+```
+A palindrome is a sequence of characters that reads the same backwards and forwards. Given a string, s, find the longest palindromic substring in s.
+
+Example:
+Input: "banana"
+Output: "anana"
+
+Input: "million"
+Output: "illi"
+```
+
+* solution:
+
+```
+Solution Not Ready Yet
+```
