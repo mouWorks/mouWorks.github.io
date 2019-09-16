@@ -49,6 +49,7 @@ module.exports = {
           { text: '資料結構', link: '/study/data_structure.html'},
           { text: '演算法', link: '/study/algo.html'},
           { text: 'LeetCode', link: '/study/leetcode.html'},
+          { text: 'DailyInterviewPro', link: '/study/dailyInterviewPro.html'},
         ]
       },
       {text: 'Projects',
@@ -60,7 +61,6 @@ module.exports = {
       {text: 'About',
         items: [
           { text: 'Site', link: 'https://m0u.work'},
-          { text: 'jpTrip', link: '/protip/jpTrip.html'},
         ]
       },
       {text: 'Others',
