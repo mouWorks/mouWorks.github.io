@@ -120,9 +120,31 @@ Given [4, 7, 1 , -3, 2] and k = 5,
 return true since 4 + 1 = 5.
 ```
 * solution:
+* 同LeetCode Q1
+* 解法說明: 要 loop兩次, 鎖定一個數, 然後後面去查找.
+    * 假設總和為 P
+    * 外層 loop, 選定該數(假設為X), 則剩下的數為 P-X
+    * 進入內層loop, 看哪一個數為 P-X, 則就是答案
+```php
+/**
+ * @param String $s
+ * @return Integer
+ */
+public function twoSum($nums, $target)
+{
+    $size = count($nums);
 
-```
-Solution Not Ready Yet
+    for($i=0;$i<$size;$i++){
+
+        $result = $target - $nums[$i];
+        for($j=$i+1; $j<$size; $j++){
+
+            if($nums[$j] == $result){
+                return [$i, $j];
+            }
+        }
+    }
+}
 ```
 ---
 
