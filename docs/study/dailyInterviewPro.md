@@ -2,7 +2,27 @@
 
 ## Questions
 
-###  `0915` |  Number of Ways to Climb Stairs 
+###  `0916` | Find Pythagorean Triplets 
+
+* recently asked by Uber
+```
+Given a list of numbers, find if there exists a pythagorean triplet in that list. A pythagorean triplet is 3 variables a, b, c where a^2 + b^2 = c^2
+
+Example:
+Input: [3, 5, 12, 5, 13]
+Output: True
+Here, 5^2 + 12^2 = 13^2.
+```
+* solution:
+
+```
+Solution Not Ready Yet
+```
+---
+
+
+
+###  `0915` | Number of Ways to Climb Stairs 
 
 * recently asked by LinkedIn
 ```
@@ -119,7 +139,7 @@ Example:
 Given [4, 7, 1 , -3, 2] and k = 5,
 return true since 4 + 1 = 5.
 ```
-* solution:
+* solution: leetCode passed
 * 同LeetCode Q1
 * 解法說明: 要 loop兩次, 鎖定一個數, 然後後面去查找.
     * 假設總和為 P
