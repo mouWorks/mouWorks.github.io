@@ -142,9 +142,62 @@ Example:
 Input: [4, 3, 2, 4, 1, 3, 2]
 Output: 1
 ```
-* solution:
-```
-Solution Not Ready Yet
+* Solution: leetCode passed (Q136)
+* 解法說明:
+    * 最笨:(single) 雙層 loop, 這個最慢
+    * 較佳:(single2) 建立一個空陣列 $match
+        * 跑Foreach, 如果 ! in_array($match) -> 則把該 num 丟進去
+        * 如果 in_array($match), 則把該筆從 $match中消掉
+        * 兩兩相消, 最後會得到 $match裡面就是他 -> 答案
+    * 佳: (single3)組合 array_search 和 array_count_values
+        * array_count_values 會去計算 Array 中每個element 出現的次數 -> 結果組成一個陣列
+        * array_seach 再去從剛剛的結果內, 撈出只有出現一次的 element    
+
+```php
+
+//2940ms, 17.8mb
+public function single($nums)
+{
+    $size = count($nums);
+
+    for($i=0;$i<$size;$i++){
+        for($j=$i+1;$j<$size;$j++){
+            if($nums[$i] == $nums[$j]){
+               unset($nums[$i]);
+               unset($nums[$j]);
+               $size -= 2;
+               $i--;
+               $nums = array_values($nums);
+               break;
+            }
+        }
+    }
+
+    return $nums[0];
+}
+
+//220ms, 17.4mb
+public function single2($nums)
+{
+    $matchArray = [];
+
+    foreach($nums as $num){
+
+        if(!in_array($num, $matchArray)){
+            $matchArray[$num] = $num;
+        }else{
+            unset($matchArray[$num]);
+        }
+    }
+
+    return current($matchArray);
+}
+
+//20ms, 17.4mb
+public function single3($nums)
+{
+    return array_search(1, array_count_values($nums));
+}
 
 ```
 ---
@@ -159,8 +212,7 @@ Example:
 Given [4, 7, 1 , -3, 2] and k = 5,
 return true since 4 + 1 = 5.
 ```
-* solution: leetCode passed
-* 同LeetCode Q1
+* solution: leetCode passed (Q1)
 * 解法說明: 要 loop兩次, 鎖定一個數, 然後後面去查找.
     * 假設總和為 P
     * 外層 loop, 選定該數(假設為X), 則剩下的數為 P-X
