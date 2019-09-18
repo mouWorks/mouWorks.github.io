@@ -18,6 +18,7 @@ module.exports = {
       {text: 'DevOps', link: '/devops/',
         items: [
           { text: 'CircleCI', link: '/devops/circleci.html'},
+          { text: 'Ansible', link: '/devops/ansible.html'},
           { text: 'Deployer', link: '/devops/deployer.html'},
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
         ]
