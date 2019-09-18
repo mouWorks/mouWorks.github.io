@@ -131,7 +131,7 @@ Solution Not Ready Yet
 ```
 ---
 
-###  `0910` | Find the Non-duplicate number
+###  [DONE] `0910` | Find the Non-duplicate number
 
 * recently asked by Facebook
 ```
@@ -202,7 +202,7 @@ public function single3($nums)
 ```
 ---
 
-###  `0909` | Two-Sum
+###  [DONE] `0909` | Two-Sum
 
 * recently asked by Facebook
 ```
