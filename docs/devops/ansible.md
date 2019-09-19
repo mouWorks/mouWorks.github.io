@@ -16,3 +16,16 @@
 
 
 ### And....
+
+
+
+#### Steps 執行步驟
+
+1. 專案 folder 建立一個 `playbook` folder
+2. Vg init 一個標準 ubuntu image
+3. Vg up
+
+```
+mkdir playbooks && cd playbooks
+vg init ubunutu/trusty64 && vg up
+```
