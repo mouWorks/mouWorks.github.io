@@ -29,3 +29,10 @@
 mkdir playbooks && cd playbooks
 vg init ubunutu/trusty64 && vg up
 ```
+
+* 看 Vagrant 的 SSH Config 訊息
+```
+vg ssh-config
+```
+
+* 將IP, keyfile 寫成 `hosts` 檔案
