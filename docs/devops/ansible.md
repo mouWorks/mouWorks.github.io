@@ -10,9 +10,32 @@
 * 需要 Python `sudo pip install ansible`
 
 ### Ansible 的組態檔案
+
+```
+├── Makefile
+└── playbooks
+    ├── Makefile
+    ├── Vagrantfile
+    ├── ansible.cfg
+    ├── build_infra.yml
+    ├── files
+    │   ├── nginx.conf
+    │   ├── nginx.crt
+    │   └── nginx.key
+    ├── hosts
+    ├── init_DO_server.yml
+    ├── templates
+    │   ├── index.html.j2
+    │   └── nginx.conf.j2
+    ├── web-notls.yml
+    └── web-tls.yml
+```
+
 * `ansible.cfg` -> Ansible組態檔的位置
 * `hosts` -> 機器的設定（主要設定機器IP, Key的位置)
 * `playbook` -> 設定的腳本 (要安裝什麼, 安裝的順序等等)
+    * `web-notls.yml` -> 無設定 TLS 的 Nginx YML
+    * `web-tls.yml` -> 有設定 TLS 
 
 ### Ansible 如何控制機器
 
