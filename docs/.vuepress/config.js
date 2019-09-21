@@ -57,6 +57,7 @@ module.exports = {
         items: [
           { text: 'M1GA', link: '/projects/m1ga.html'},
           { text: 'WeddingHelper', link: '/projects/weddinghelper.html'},
+          { text: 'SwingEventsTaipei', link: '/projects/swingEventsTaipei.html'},
         ]
       },
       {text: 'About',
