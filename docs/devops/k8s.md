@@ -82,3 +82,33 @@ docker run -d -p 8888:8888 -h my-web-server gcr.io/${GCP_PROJECT}/py-web-server:
     * `serviceIp` -> 一個外部ip固定給別人打
     * `loadbalancer`
     * `TBD`
+    
+#### label
+
+* 類似打 Tag
+* Metadata 可以 assign Api物件上去
+* pods使用 labels 來做 grouping
+* Selector 可以用來 search 他們
+
+#### Kubelets 
+
+* 會檢查pod是否 healthy
+* unhealthy -> 重開pod(秒級,速度極快)
+
+#### Volumes
+
+* volumes 不在 pod 內, 且為 stateful 
+* 使用者的相關資料不要存在 pod 內 -> 萬一 pod 掛掉則 使用者資料消失
+* pod is stateless (不存使用者資料)
+* volumes is stateful  (有資料)
+* kubectl 建立 volumes
+```
+kubetcl create <volumes>
+```
+* pod 去讀 volumes
+```
+kubectl create -f pod.yml 
+```
+* 幾乎不操作 node 節點
+* 跟master溝通, 經由 yaml檔案來操作
+    
