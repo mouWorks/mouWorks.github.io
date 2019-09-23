@@ -103,7 +103,7 @@ docker run -d -p 8888:8888 -h my-web-server gcr.io/${GCP_PROJECT}/py-web-server:
 * volumes is stateful  (有資料)
 * kubectl 建立 volumes
 ```
-kubetcl create <volumes>
+kubectl create <volumes>
 ```
 * pod 去讀 volumes
 ```
@@ -112,3 +112,25 @@ kubectl create -f pod.yml
 * 幾乎不操作 node 節點
 * 跟master溝通, 經由 yaml檔案來操作
     
+    
+#### K8s 部署
+
+* deployments 和 rolling updates
+* 建立 cluster -> `gcloud`
+* 控制 -> `kubectl`
+
+* Cluster Scaling -> Google 的 AutoScaler
+* K8s Scaling -> Replica set 會去自動調整/修正
+
+* Rolling Update:
+    * 滾動式 update
+    * Rollback
+    
+* *K8S強項* Canary Update / Blue-green deployment:
+    * Canary: 前期測試
+        * 兩組deployment, 皆同一組 service
+        * 可用分流, 做 a/b testing
+    * Blue-green: 
+        * service 先接藍色
+        * 綠色 deploy 完成之後, service 切到藍色
+    * 
