@@ -194,3 +194,40 @@ kubectl get pods | grep hello- | wc -l
 ```
 kubectl scale deployment hello --replicas=3
 ```
+
+#### Rolling Update
+
+* 幾本上, 修改Deployment file, k8s就會執行動態 rolling update
+* 修改 deployment.yaml 檔案
+```
+kubectl edit deployment hello
+```
+* 改完存檔(如vim), 改完後就會動態生效
+
+* 看有多少 replicaset
+
+```
+kubectl get replicaset
+```
+
+* 看 rollout history
+```
+kubectl rollout history deployment/hello
+```
+
+* 通用指令 
+* `kubectl rollout <ACTION> deployment/hello`
+* `ACTIONS`:
+    * `pause` 暫停
+    * `status` 看狀態
+    * `resume` 恢復
+    * `undo` rollback -> 回滾
+    * `history` 看歷史紀錄
+    
+* 看pod
+```
+kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
+```    
+
+
+
