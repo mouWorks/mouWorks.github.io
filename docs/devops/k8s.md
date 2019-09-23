@@ -133,4 +133,64 @@ kubectl create -f pod.yml
     * Blue-green: 
         * service 先接藍色
         * 綠色 deploy 完成之後, service 切到藍色
-    * 
+
+#### k8s 實作
+
+* 設定zone資訊(以後就不必再輸入)
+```
+gcloud config set compute/zone us-central1-a
+```
+* Git clone sample 教材
+```
+git clone https://github.com/googlecodelabs/orchestrate-with-kubernetes.git
+```
+* 建立一個5個node 的 cluster
+```
+gcloud container clusters create bootcamp --num-nodes 5 --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
+```
+
+#### Deployment 元件
+
+* Explain 既有的 deployment 元件
+```
+kubectl explain deployment
+``` 
+* 加上 `recursive` 可看到更多
+```
+kubectl explain deployment --recursive
+```
+* 可指定特定元素
+```
+kubectl explain deployment.metadata.name
+```
+
+#### 建立 Deploymnet 元件
+
+* 看一下撰寫的 auth.yaml
+```
+cat deployments/auth.yaml
+```
+
+
+#### Deployment 的 Scale (up and down)
+
+* 基本上就是調整 `replica` 的數量
+```
+kubectl scale deployment ${DEPLOY_NAME} --replicas=${DEPLOY_NUMBER_COUNT}
+```
+* 定義解釋
+```
+kubectl explain deployment.spec.replicas
+```
+* Scale up 到 5個replica
+```
+kubectl scale deployment hello --replicas=5
+```
+* 觀測一下確定pod有變為5個
+```
+kubectl get pods | grep hello- | wc -l
+```
+* 再切為3個
+```
+kubectl scale deployment hello --replicas=3
+```
