@@ -20,6 +20,7 @@ module.exports = {
           { text: 'CircleCI', link: '/devops/circleci.html'},
           { text: 'Ansible', link: '/devops/ansible.html'},
           { text: 'Deployer', link: '/devops/deployer.html'},
+          { text: 'k8s', link: '/devops/k8s.html'},
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
         ]
       },
