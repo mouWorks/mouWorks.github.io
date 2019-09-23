@@ -229,5 +229,28 @@ kubectl rollout history deployment/hello
 kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
 ```    
 
+#### Blue-green deployment 藍綠部署
+
+* 主要是分別建立 blue/green 的 deployment, 由service 來作切換
+* Rollback -> 就切換部署到上一版
+
+* 建立綠色部署
+```
+kubectl create-f deployments/hello-green.yaml
+```
+* 建立藍色部署
+```
+kubectl create-f deployments/hello-blue.yaml
+```
+
+* Apply (更換過去) -> 切到綠色
+```
+kubectl apply -f services/hello-green.yaml
+```
+
+* Apply (更換過去) -> 切到藍色
+```
+kubectl apply -f services/hello-blue.yaml
+```
 
 
