@@ -253,4 +253,42 @@ kubectl apply -f services/hello-green.yaml
 kubectl apply -f services/hello-blue.yaml
 ```
 
+### Pipeline (CI/CD)
 
+#### k8s 如何 CI/CD
+
+* Cloud build / Spinnaker
+* Cloud build -> jenkins on gcp
+* Spinnaker -> 可將 code deploy 到 k8s
+
+* Jenkins -> 自架 CI/CD infra 怕 fail
+* Spinnaker -> 包含審核機制 
+
+
+#### Spinnaker
+
+* 要先用 `helm` 將 spinnaker 裝到 `GKE` 上面
+* `CodeCommit` -> 推上去, 自動建立一個 contianer image 然後推到ECR
+
+
+#### Spinnaker 實作
+
+* 要先使用 `helm` 將 Spinnaker 裝在 GKE 之上
+* CodeRepo 有改變時 -> 會在 cloud build 先 Run, 跑完之後, GCR會建立一份新的資料
+* Spinnaker 會先deploy完, 等 manual trigger
+* 需要在 Spinnker 建立 pipeline
+
+* cloudbuild -> CI
+* Spinnaker -> CD
+
+##### 步驟
+
+* 先建立好 GKE cluster
+* 設定好 service account
+* 下載一個 service account key. 當在 SKE 安裝 Spinnaker 時會需要此key
+
+* 建立 cloud pubsub topic 在 container registry.
+* 建立一個 `gcr trigger` 的 subscription
+
+* 安裝 helm
+    * Helm 是用來安裝和管理 k8s apps
