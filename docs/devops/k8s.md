@@ -1,5 +1,5 @@
 # k8s Workshop
-* GoogleCloudSummit@2019/9/23
+* GoogleCloudSummit @ 2019/9/23
 
 ### 簡單實作一個Docker 的 Web App (Docker w/Python)
 #### Docker 練習
@@ -45,7 +45,7 @@ docker run -d -p 8888:8888 -h my-web-server gcr.io/${GCP_PROJECT}/py-web-server:
 
 #### Cluster 定義
 
-* 必有 Master 和 其他 node 節點 (worker) - Master Google 管理
+* 必有 Master 和 其他 node 節點 (worker) -  Google 管理 Master 節點
 
 #### How K8s work
 
@@ -57,5 +57,28 @@ docker run -d -p 8888:8888 -h my-web-server gcr.io/${GCP_PROJECT}/py-web-server:
 * 一個 module 可能會有多個 container, 避免 `FatContainer` 設計 
 * AutoScaling 單位: `pod` 
 * 每一個單一的Pod 都會有自己的IP (uniqueIP)
-* 
+* GKE 在pod內使用 iptables 做 port forwarding
 
+#### pod
+
+* 獨立 yaml 定義 : `pod.yaml`
+* 有些類似 docker-compose 寫法.
+* 可以定義 如何建立多個 container, 並且互相連結.
+* pod.yaml 檔案給 master 讀取.
+* master 節點會在node上面分配並且建立 pods
+
+#### Deployment
+
+* 獨立 yaml 定義 : `deployment.yaml`
+* 確保我的節點上面要跑多少個 pod
+* `replicas` : 要跑幾個pod
+
+#### Service層
+
+* 獨立 yaml 定義 : `service.yaml`
+* Request 進入Service, 固定ip位置
+* Decoupling system -> 方便分別 scaling
+* Google 有三種: 
+    * `serviceIp` -> 一個外部ip固定給別人打
+    * `loadbalancer`
+    * `TBD`
