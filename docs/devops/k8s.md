@@ -292,3 +292,12 @@ kubectl apply -f services/hello-blue.yaml
 
 * 安裝 helm
     * Helm 是用來安裝和管理 k8s apps
+
+
+##### k8s scaling 
+
+* pod auto scaling -> fast 
+* node auto scaling 
+
+* pod 會不斷增長直到資源用完
+* Best Practice
