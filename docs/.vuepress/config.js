@@ -51,6 +51,7 @@ module.exports = {
         items: [
           { text: '資料結構', link: '/study/data_structure.html'},
           { text: '演算法', link: '/study/algo.html'},
+          { text: '設計模式', link: '/study/design_pattern.html'},
           { text: 'LeetCode', link: '/study/leetcode.html'},
           { text: 'DailyInterviewPro', link: '/study/dailyInterviewPro.html'},
         ]
