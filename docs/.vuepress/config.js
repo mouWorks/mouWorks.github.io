@@ -32,6 +32,7 @@ module.exports = {
           { text: 'Socket', link: '/backend/socket.html'},
           { text: 'Queue', link: '/backend/queue.html'},
           { text: 'Php5升7', link: '/backend/upgrade_to_seven.html'},
+          { text: 'Nodejs', link: '/backend/nodejs.html'},
         ]
       },
       {text: 'Protip', link: '/protip/',
