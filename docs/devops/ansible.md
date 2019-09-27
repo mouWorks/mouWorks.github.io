@@ -132,7 +132,30 @@
 
     
     
+##### Ansible 搞定 SSL Cert (只在 DigitalOcean有效)
 
+* 使用 `AnsibleStack` 那個 Repo裡面的安裝指令
+
+* DigitalOcean 開一個 Droplet, 紀錄該 Droplet IP
+* `AnsibleStack` 去調整 `host`, 填入 Droplet Ip
+* 跑 `make ans-init-DO` 做一些 Droplet 機器的初始化設定
+* 跑 `make ans-init` 
+    * 裝 nginx
+    * 裝 cert-bot
+    * 設定 cert-bot 的東西
+    * 完成後, 你的 domain 應該會有 Https
+* 記得到 `digitalOcean` 去把 domain指向你的 droplet
+
+* Wildcard domain TLS
+* `ansible` 似乎無法一步自動完成, 所以直接 ssh 進去機器裝
+* 先SSH進去 `DO` server
+```
+certbot certonly --server https://acme-v02.api.letsencrypt.org/directory --manual --preferred-challenges dns -d *.YOUR_DOMAIN
+``` 
+* 這個是使用 `dns` 驗證
+* 跑完最後一部之前, 會有個 `Acme-challenge` 設定
+* 去 DO panel, 新增一筆 `TXT`
+* `_acme-challenge` : `sdiojasdjqwijdqodjiq` 一串碼
 
 
 
