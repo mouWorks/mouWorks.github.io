@@ -158,4 +158,13 @@ certbot certonly --server https://acme-v02.api.letsencrypt.org/directory --manua
 * `_acme-challenge` : `sdiojasdjqwijdqodjiq` 一串碼
 
 
+* 檢查是否能Renew
+```
+certbot renew --dry-run
+```
+* 如果錯誤 可能是因為 nginx 還開著, 記得先關掉
 
+* 設定自動Renew
+```
+0 0 20 */2 * /usr/bin/certbot renew --quiet --no-self-upgrade --post-hook "service nginx restart"
+```
