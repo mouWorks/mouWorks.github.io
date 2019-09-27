@@ -43,7 +43,7 @@ jobs:
             mv .circleci/circleci_deploy.sh .
             ./circleci_deploy.sh
       - slack/notify:
-          title: "Blog 內容更新完成 :) "
+          title: "Blog 內容更新完成 :) @ doc.m0u.work / mouworks.github.io"
           message: "Deployed by CircleCI"
 #          mentions: "USERID1,USERID2," # Optional: Enter the Slack IDs of any user or group (sub_team) to be mentioned
           color: "#42e2f4" # Optional: Assign custom colors for each notification
