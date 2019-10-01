@@ -46,7 +46,12 @@ module.exports = {
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
         ]
       },
-      {text: 'Resume', link: '/resume/resume.html'},
+      {text: 'Resume',
+        items: [
+          { text: 'Resume', link: '/resume/resume.html'},
+          { text: '中文履歷', link: '/resume/resume_chinese.html'}
+        ]
+      },
       {text: 'Study',
         items: [
           { text: '資料結構', link: '/study/data_structure.html'},
