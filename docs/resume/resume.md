@@ -2,9 +2,7 @@
 
 ### `Contact` mjwangtw@gmail.com
 
-## Work Exp
-
-### Summary
+## Summary
 
 * Over 5 Years backend development experience (PHP)
 * Large Website develop experience (e-Commerce / human-resource)
@@ -14,6 +12,32 @@
 * Integrate UnitTest
 * SaaS Experience: AWS, GCP
 * Testing Experience: Test Campaign, Test Cases and Manual Testing
+
+### Technical Skills
+
+| Category | Name | Version | Year | Period |
+|:---------|:--------|:-------|:--------|:----|
+|Programming Language| PHP | 5.x / 7 | 2014 - now | over 5 years|
+|Frameworks| Yii Framework (PHP)| 1.1 | 2016-2019 | over 2 years|
+|Frameworks| CodeIgniger (PHP) | 2 | 2014-2016, 2019 | over 3 years|
+|Frameworks| Laravel | 5.x | 2014 | |
+|Databases| MySQL |  | 2014,2016 | |
+|Tools (VCS)| Git |  | 2014~now | |
+|Tools (DevOps)| CircleCI |  | 2019 | |
+|Tools (DevOps)| TravisCI |  | 2017~2019  | |
+|Tools (DevOps)| CodeDeploy |  | 2017~2019 | |
+|Tools (DevOps)| Vagrant |  | 2014~2019 | |
+|Tools (DevOps)| Docker |  | 2019 | |
+
+### Language
+* English (Fluent Speaking and Writing)
+* Mandrin (Native)
+
+### Education
+* University of Pittsburgh, Pittsburgh, PA
+* MS in Information Science, 2009~2010
+
+## Work Experience
 
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
 #### 2019/04 - 2019/08
@@ -56,6 +80,8 @@ Also Zuvio provides a social network for college students.
 
 ### `Web Developer` @ uitox - Taipei, Taiwan
 #### 2014/02 - 2016/04
+
+* uitox 
 
 * Major Responsiblity:
     * Maintain and enhance site-wise system core API: SaleQty API.

@@ -3,13 +3,13 @@
 * `PS` : 文檔內的 `vg` 均表示 `vagrant` (因有Alias設定)
 * 設定參考 `mouworks/ansibleStack`
 
-### 定義:
+## 定義:
 * 推式更新 (pushed based, 要安裝的電腦不需要額外設定)
 
-### 本機電腦安裝 Ansible
+## 本機電腦安裝 Ansible
 * 需要 Python `sudo pip install ansible`
 
-### Ansible 的組態檔案
+## Ansible 的組態檔案
 
 ```
 ├── Makefile
@@ -37,12 +37,12 @@
     * `web-notls.yml` -> 無設定 TLS 的 Nginx YML
     * `web-tls.yml` -> 有設定 TLS 
 
-### Ansible 如何控制機器
+## Ansible 如何控制機器
 
 * 均由 SSH 來處理
 * Local Vagrant 需要再額外設定
 
-#### Steps 執行步驟
+## Steps 執行步驟
 
 * PS, 如果 init 或者 vg up 不順, 升級 && 更新 Vagrant 和 VirtualBox
     ```
@@ -80,7 +80,7 @@
     * `ansible production -m ping -u root` (後方加上 `-u root`)
     * 或者在 ansible 的 `host` 檔案內加上 ` ansible_ssh_user=root`   
     
-##### 修改 Vagrant 設定讓ansible可以溝通
+### 修改 Vagrant 設定讓ansible可以溝通
 
 * `Vagrantfile` 內加上這個設定
     ```
@@ -90,7 +90,7 @@
 * Vagrant Reload `vg reload`
 
 
-##### 寫第一個 playbook
+### 寫第一個 playbook
 
 * `web-notls.yml` -> 寫一個安裝 nginx 的 playbook
 * 如何下指令
@@ -101,7 +101,7 @@
 * Ansible 特性: 會紀錄做過哪些事情, 故 安裝 nginx 如果已經裝過, 且有紀錄, 則下次只會顯示 ok, 表示跳過該 step
     
     
-##### 第二個 playbook: web with TLS
+### 第二個 playbook: web with TLS
 
 * 自己產Key
 
@@ -112,11 +112,11 @@
 * `web-tls.yml` -> 有 SSL 的 Nginx 設定
 * ansible 使用 `jinja2` 模板, 類似 mustache
 
-##### 主要由一個 .yml 將步驟寫好
+### 主要由一個 .yml 將步驟寫好
 
 
 
-##### 雙機流設定
+### 雙機流設定
 
 * 設定兩台機器
     * 一台 Vagrant (本機快速開發測)
@@ -132,7 +132,7 @@
 
     
     
-##### Ansible 搞定 SSL Cert (只在 DigitalOcean有效)
+### Ansible 搞定 SSL Cert (只在 DigitalOcean有效)
 
 * 使用 `AnsibleStack` 那個 Repo裡面的安裝指令
 
