@@ -5,45 +5,60 @@
 ## Work Exp
 
 ### Summary
-* 5年以上後端開發經驗(php)
-* 大型網站維護並開發新功能(電商,人力銀行)
-* Api開發
-* DevOps: 導入CICD, 整合 UnitTest
-* SaaS經驗: AWS, GCP   
+
+* Over 5 Years backend development experience (PHP)
+* Large Website develop experience (e-Commerce / human-resource)
+* Maintain site core APIs and core functions
+* Develop new features based on business requests.
+* DevOps: Introduce CI/CD to current workflow.
+* Integrate UnitTest
+* SaaS: AWS, GCP
 
 ### `Senior Backend Developer` @ Zuvio
-#### 2019/04
-* Api設計與開發
-* 導入CI架構(CircleCI)
-* CI整合既有測試元件(PhpUnit)
-* 開發新功能
-    * 考試監控系統
-    * 警告系統
+#### 2019/04 - 2019/08
+
+* Zuvio provides an app solution for college teachers/students 
+where teachers can simply prepare class materials, do pop quiz and make roll calls. 
+Also Zuvio provides a social network for college students. 
+
+* My task:
+    * Develop and design new Api 
+    * Introduce CI tools (CircleCI)
+    * Integrate PhpUnit to CircleCI
+    * Develop New feature
+        * Test Monitoring system (Anti-cheat)
+        * User warning system (avoid user misbehave)
 
 ### `Web Developer` @ 104
 #### 2016/07 - 2019/02
-* 開發求職端產品網站
-    * 104求職網站功能
-    * 104求職網站行動版
-    * 共用Api元件
-    * 行銷活動網站
-* 專案整合AWS環境
-* 系統維護升級
-    * Https元件升級
-    * 資安修正
-* 行銷網站導入AWS環境及CI/CD    
-* 專案:
-    * 搜尋條件優化專案 - 次級篩選
-    * 搜尋頁分組實驗
-    * 高階求職POC: 快速開發
-    * 超級業務:行銷網站,全AWS架構,CI/CD
-    * (AC)首頁登入帳號整合
-    * 新鮮人專區:行銷網站後台
-    * 新生找心聲:活動網站, 使用 AWS Lambda (NodeJS) + IDC 混合雲環境
-    * 行動版網站優化專案
+
+* 104 serves as largest human-resource website in Taiwan and considered as first choice when jobfinder seeking jobs.
+
+* My Task:
+    * Maintain major website and develop new features, such as:
+        * JobSearch Website (PC)
+        * JobSearch Website (Mobile)
+        * Common Api 
+        * Campaign websites
+    * Develop campaign website with 100% cloud-based (AWS) 
+    * System maintain and upgrade
+        * Https upgrade
+        * Security updates
+    * Projects:
+        * Upgrade JobSearch feature
+        * JobSearch Feature A/B Test
+        * POC for new feature: JobSearch for Managers
+        * Supersales: a campaign site with CI/CD integrated
+        * AccountCenter Upgrade
+        * Freshman: admin panel for PM
+        * Heartfelt: a campaign site integrated with AWS Lambda
 
 ### `Web Developer` @ uitox
 #### 2014/02 - 2016/04
+
+
+
+
 * 系統功能開發
 * 維護系統核心Api(可賣量Api)
 * 維護主要商品頁面(單品頁面)
@@ -55,15 +70,16 @@
     * 自定頁面: 提供給廠商自定頁面工具, 可客製化說明頁面
 
 ## Skills
-* PHP 網站後端開發
+* Website backend development with PHP
     * Frameworks: CodeIgniter 2, Yii 1.1, Slim, Laravel
-* DevOps - CI導入及維護 (TravisCI, CircleCI, CodeShip)
-* DevOps - CD使用 (AWS CodeDeploy)
+* DevOps - Introduce CI tools to workflow (TravisCI, CircleCI, CodeShip)
+* DevOps - Integrate CD to workflow (AWS CodeDeploy)
 * DevOps - 整合開發環境 (Vagrant & Docker)
-* Phpunit 單元測試
+* Phpunit Testing
 
 ## Projects
 
 * M1GA - 104 Hackathon 
 * WeddingHelper
 * SwingEventsTaipei
+* 
