@@ -73,11 +73,11 @@ module.exports = {
           { text: 'Site', link: 'https://m0u.work'},
         ]
       },
-      {text: 'Others',
-        items: [
-          { text: 'notes', link: '/others/note.html'},
-        ]
-      }
+      // {text: 'Others',
+      //   items: [
+      //     { text: 'notes', link: '/others/note.html'},
+      //   ]
+      // }
     ],
     sidebar: 'auto',
     // sidebar: [
