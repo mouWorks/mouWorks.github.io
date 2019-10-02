@@ -40,7 +40,7 @@
 ## Work Experience
 
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
-#### 2019/04 - 2019/08
+#### 2019/04 
 
 * Zuvio provides an app solution for college teachers/students 
 where teachers can simply prepare class materials, do pop quiz and make roll calls. 
@@ -50,9 +50,9 @@ Also Zuvio provides a social network for college students.
     * Develop and design new Api 
     * Introduce CI tools (CircleCI)
     * Integrate PhpUnit to CircleCI
-    * Develop New feature
-        * Test Monitoring system (Anti-cheat)
-        * User warning system (avoid user misbehave)
+* Project: 
+    * Test Monitoring system (Anti-cheat)
+    * User warning system (avoid user misbehave)
 
 ### `Web Developer` @ 104 - Taipei, Taiwan
 #### 2016/07 - 2019/02
@@ -69,7 +69,7 @@ Also Zuvio provides a social network for college students.
     * System maintain and upgrade
         * Https upgrade
         * Security updates
-* Highlight Projects:
+* Projects:
     * Upgrade JobSearch feature
     * JobSearch Feature A/B Test
     * POC for new feature: JobSearch for Managers
@@ -129,9 +129,9 @@ Also Zuvio provides a social network for college students.
     * Develop Test Scenario and Test cases
     * Manual Testing
 
-## Projects
+## Side Projects
 
 * M1GA - 104 Hackathon 
-* WeddingHelper
 * SwingEventsTaipei
+* WeddingHelper
 * BetelBrother - a Meme Generator
