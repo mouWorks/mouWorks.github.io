@@ -68,16 +68,7 @@ module.exports = {
           { text: 'SwingEventsTaipei', link: '/projects/swingEventsTaipei.html'},
         ]
       },
-      {text: 'About',
-        items: [
-          { text: 'Site', link: 'https://m0u.work'},
-        ]
-      },
-      // {text: 'Others',
-      //   items: [
-      //     { text: 'notes', link: '/others/note.html'},
-      //   ]
-      // }
+      {text: 'Site', link: 'https://m0u.work' }
     ],
     sidebar: 'auto',
     // sidebar: [
