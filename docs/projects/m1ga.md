@@ -1,15 +1,21 @@
-# 104 New Start
-## 104 hackathon demo
-### [Project Repo](https://github.com/mouWorks/m1ga)
-### project name: m1ga
+# 104 New Start - 104 hackathon demo
 
-* Team Members:
-    * Mou.Wang (Backend/DevOps)
-    * Tim.Chen (Frontend Design)
-    * Mooncake Shu (UI/UX)
-    * Andy (Design)
----
 
+## Concept
+
+* `104 New Start` is a Demo of integrate existing 104 JobSeach Api, providing a new interface on mobile devices 
+
+## Screenshots
+
+![image](/m1ga_screenshots/Intro.png)
+![image](/m1ga_screenshots/UserSelect.png)
+![image](/m1ga_screenshots/JobSelect.png)
+![image](/m1ga_screenshots/SalarySelect.png)
+![image](/m1ga_screenshots/ConditionSelect.png)
+![image](/m1ga_screenshots/DisplayResult.png)
+![image](/m1ga_screenshots/DisplayJobs.png)
+
+## Demo via Docker:
 * project display via Docker
 * pre-req: 
     * `Docker` Environment
@@ -21,15 +27,14 @@
     * `make start` - Launch the app
     * visit via `localhost:9090`
     * `make stop` - Stop the app
-    * you need to manually remove docker images
-----
+    * you need to manually remove docker images  
 
-### Screenshots
+## Team Members & Repo:
 
-![image](/m1ga_screenshots/Intro.png)
-![image](/m1ga_screenshots/UserSelect.png)
-![image](/m1ga_screenshots/JobSelect.png)
-![image](/m1ga_screenshots/SalarySelect.png)
-![image](/m1ga_screenshots/ConditionSelect.png)
-![image](/m1ga_screenshots/DisplayResult.png)
-![image](/m1ga_screenshots/DisplayJobs.png)
+* Mou.Wang (Backend/DevOps)
+* Tim.Chen (Frontend Design)
+* Mooncake Shu (UI/UX)
+* Andy (Design)
+
+### Project name: m1ga
+* [Repo](https://github.com/mouWorks/m1ga)

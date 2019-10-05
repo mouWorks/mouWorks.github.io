@@ -49,10 +49,10 @@
 where teachers can simply prepare class materials, do pop quiz and make roll calls. 
 Also Zuvio provides a social network for college students. 
 
-* Major Responsiblity:
+* Major Duty:
     * Develop and design new Api 
     * Introduce CI tools (CircleCI) to improve code quality
-    * Integrate PhpUnit to CircleCI
+    * Integrate PhpUnit to CircleCI to automate tests
     * Rapid develop new feature based on requests.
 
 * Project: 
@@ -66,14 +66,14 @@ Also Zuvio provides a social network for college students.
 
 * 104 serves as largest human-resource website in Taiwan and considered as first choice when jobfinder seeking jobs.
 
-* Major Responsiblity:
+* Major Duty:
     * Maintain major website and develop new features, such as:
         * JobSearch Website (PC)
         * JobSearch Website (Mobile)
         * Common Api 
         * Campaign websites
-    * Develop campaign website with 100% cloud-based (AWS) 
-    * System maintain and upgrade
+    * Develop campaign website with 100% cloud-based (AWS) infrastructure
+    * Maintain and upgrade system
         * Https upgrade
         * Security updates
 * Projects:
@@ -88,9 +88,10 @@ Also Zuvio provides a social network for college students.
 ### `Web Developer` @ uitox - Taipei, Taiwan
 #### 2014/02 - 2016/04
 
-* uitox is one of e-commerce innovators in Taiwan, providing one-stop e-commerce solutions for vendors.
+* uitox is one of e-commerce innovators in Taiwan, 
+providing one-stop e-commerce solutions for vendors.
 
-* Major Responsiblity:
+* Major Duty:
     * Maintain and enhance site-wise system core API: SaleQty API.
     * Maintain and enhance core pages : Item page.
     * Develop and extend in-house tools for PM and Developers.
@@ -107,7 +108,8 @@ Also Zuvio provides a social network for college students.
 
 * Software Quality Assurance Analyst functions at Highmark QA team. (eMarketing Web Operations Team)
 * Functional Testing:
-    * manual/automation function test including formulating test scenario and test cases, executing test cases and report, raising defect via Rational ClearQuest.
+    * manual/automation function test including formulating test scenario and test cases, 
+    executing test cases and report, raising defect via Rational ClearQuest.
 * Parallel Testing:
     * parallel testing for both front-end and backend data warehouse system.
 
