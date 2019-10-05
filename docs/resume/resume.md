@@ -25,9 +25,12 @@
 |Tools (VCS)| Git |  | 2014~now | |
 |Tools (DevOps)| CircleCI |  | 2019 | |
 |Tools (DevOps)| TravisCI |  | 2017~2019  | |
-|Tools (DevOps)| CodeDeploy |  | 2017~2019 | |
+|Tools (DevOps)| CodeDeploy (AWS) |  | 2017~2019 | |
 |Tools (DevOps)| Vagrant |  | 2014~2019 | |
 |Tools (DevOps)| Docker |  | 2019 | |
+|Saas (AWS)| EC2, S3, Lambda, ApiGateway, ALB |  | 2016~2019 | |
+|Saas (GCP)| GCP |  | 2019 | |
+
 
 ### Language
 * English (Fluent Speaking and Writing)
@@ -48,12 +51,16 @@ Also Zuvio provides a social network for college students.
 
 * Major Responsiblity:
     * Develop and design new Api 
-    * Introduce CI tools (CircleCI)
+    * Introduce CI tools (CircleCI) to improve code quality
     * Integrate PhpUnit to CircleCI
+    * Rapid develop new feature based on requests.
+
 * Project: 
     * Test Monitoring system (Anti-cheat)
+        * Using Websocket to monitor student class login behavior, create a monitor dashboard for teachers
     * User warning system (avoid user misbehave)
-
+        * Automate current system task to alert users.
+        
 ### `Web Developer` @ 104 - Taipei, Taiwan
 #### 2016/07 - 2019/02
 
@@ -81,7 +88,7 @@ Also Zuvio provides a social network for college students.
 ### `Web Developer` @ uitox - Taipei, Taiwan
 #### 2014/02 - 2016/04
 
-* uitox 
+* uitox is one of e-commerce innovators in Taiwan, providing one-stop e-commerce solutions for vendors.
 
 * Major Responsiblity:
     * Maintain and enhance site-wise system core API: SaleQty API.
@@ -131,7 +138,14 @@ Also Zuvio provides a social network for college students.
 
 ## Side Projects
 
-* M1GA - 104 Hackathon 
-* SwingEventsTaipei
-* WeddingHelper
-* BetelBrother - a Meme Generator
+* [M1GA - 104 Hackathon](../projects/m1ga.html) 
+    * MobileWeb design
+    * Dockerized
+* SwingEventsTaipei (PHP/CD-enabled)
+* PepeBot 
+    * NodeJS+AWALambda+ApiGateway+CD
+    * Fun Chatbot
+* [WeddingHelper](../projects/weddinghelper.html) 
+    * NodeJS+AWALambda+ApiGateway+CD
+* MouWorks
+    * PersonalSite and Demo
