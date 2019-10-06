@@ -20,7 +20,7 @@
 |Programming Language| PHP | 5.x / 7 | 2014 - now | over 5 years|
 |Frameworks| Yii Framework (PHP)| 1.1 | 2016-2019 | over 2 years|
 |Frameworks| CodeIgniger (PHP) | 2 | 2014-2016, 2019 | over 3 years|
-|Frameworks| Laravel | 5.x | 2014 | |
+|Frameworks| Laravel |  | 2014 | |
 |Databases| MySQL |  | 2014,2016 | |
 |Tools (VCS)| Git |  | 2014~now | |
 |Tools (DevOps)| CircleCI |  | 2019 | |
@@ -57,14 +57,14 @@ Also Zuvio provides a social network for college students.
 
 * Project: 
     * Test Monitoring system (Anti-cheat)
-        * Using Websocket to monitor student class login behavior, create a monitor dashboard for teachers
+        * Using Websocket to monitor student class login behavior, create a dashboard for teachers to monitor.
     * User warning system (avoid user misbehave)
         * Automate current system task to alert users.
         
 ### `Web Developer` @ 104 - Taipei, Taiwan
 #### 2016/07 - 2019/02
 
-* 104 serves as largest human-resource website in Taiwan and considered as first choice when jobfinder seeking jobs.
+* 104 serves as largest human-resource website in Taiwan and considered as first choice when finding new jobs.
 
 * Major Duty:
     * Maintain major website and develop new features, such as:
