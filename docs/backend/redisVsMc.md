@@ -12,6 +12,7 @@ For anything new, use Redis.
 ### Go for Memcached if:
 * 簡單的 Key-value store (string)
 * 已經在使用既有的 Memcached
+* You want multithread (Redis is 1-core)
 
 ### Go for Redis if:
 * 複雜資料型態 (string, hash, list, set)
@@ -20,8 +21,10 @@ For anything new, use Redis.
 * 需要讀寫分離
 * 需要快照
 
+### Related Doc
 * [中文比較](https://www.ecloudture.com/aws-elasticache-redis-and-memcache/)
 * [StackOverflow](https://stackoverflow.com/questions/10558465/memcached-vs-redis)
+* [Comp@Amz](https://aws.amazon.com/tw/elasticache/redis-vs-memcached/)
 
 ## Memcached
 
