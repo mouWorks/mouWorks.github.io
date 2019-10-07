@@ -33,6 +33,7 @@ module.exports = {
           { text: 'Queue', link: '/backend/queue.html'},
           { text: 'Php5升7', link: '/backend/upgrade_to_seven.html'},
           { text: 'Nodejs', link: '/backend/nodejs.html'},
+          { text: 'Redis Vs Memcached', link: '/backend/redisVsMc.html'},
         ]
       },
       {text: 'Protip', link: '/protip/',
