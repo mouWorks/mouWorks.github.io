@@ -34,6 +34,7 @@ module.exports = {
           { text: 'Php5升7', link: '/backend/upgrade_to_seven.html'},
           { text: 'Nodejs', link: '/backend/nodejs.html'},
           { text: 'Redis Vs Memcached', link: '/backend/redisVsMc.html'},
+          { text: 'JS 設計模式', link: '/backend/js_pattern.html'},
         ]
       },
       {text: 'Protip', link: '/protip/',
