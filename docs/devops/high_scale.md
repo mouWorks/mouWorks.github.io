@@ -126,11 +126,34 @@
 
 * 沒有足夠的 metrics 則無法優化
 * 先設定 Metrics, 再按照判斷去優化
+    
+## 節省IO
 
-
+* AppServer 可以 AutoScale, DB/Cache 無法
+* DB/Cache最大問題就是IO
+* Compression 可以節省很多 Network/storage IO
+* Pagination 分頁
  
+## Hotspot
+
+* 不管 RDBMS/NoSQL,都只有一份資料
+* 一份 data, 有 strong consistency
+* hotspot 是卡 single thread 效能 
     
-    
+## Cache TTL
+
+* Redis: single thread. 小心啊
+* Cache 一定要設定 TTL.
+* 如果用Redis原生自己處理, `過期功能` 就會集中在 `peak hour`發生, 又因為 `Redis single thread` , 會造成很慢
+* Redis LRU 可能會清理錯 data    
         
-           
+## Microservice
+
+* 商業邏輯垂直切割
+    * Service 獨立生存, 獨立功能
+* 不要水平切割
+    * User -> ServiceA -> ServiceB -> DB
+    * if ServiceB Die and all dies
+    
+            
        
