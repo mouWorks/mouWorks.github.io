@@ -38,6 +38,20 @@
 * `AutoScaling` 是用來省錢
     * 用在 `application server`
     * `不要` 用在 DB 
-            
+                
+* `AppServer` 開起來, warmUp time 約為 60秒
+    * Linux開機需要時間
+    * AWS/GCP register 需要時間
+    * Pull code 需要時間
+    
+* 難以 `Auto-Scaling` 
+    * `電商網站` 搶購問題
+        * `球鞋` 瞬間 20倍的流量 (1分鐘內)
+    * `Happy New year` 問題
+* 可能的解法:
+    * 預先加開機器
+    * 搶購, 用事先登記和抽籤 方式
+* `Stateless` 才能 AutoScaling, `Stateful` 無法    
+              
 
        
