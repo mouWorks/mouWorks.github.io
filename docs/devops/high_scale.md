@@ -73,6 +73,10 @@
     * `pgpool` , `proxysql` -> AppServer 上面 extension 
 * `PHP` -> `proxysql` -> DB 
 * `Redis` 很需要 pooling.     
-    
+
+* `DB` 大約會用到 25%~ 50% 的時間
+    * 約 `50%` 時間在 `AppServer`
+    * 約 `50%` 時間在 `DB`
+        
            
        
