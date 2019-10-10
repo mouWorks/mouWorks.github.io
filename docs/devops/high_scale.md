@@ -77,6 +77,60 @@
 * `DB` 大約會用到 25%~ 50% 的時間
     * 約 `50%` 時間在 `AppServer`
     * 約 `50%` 時間在 `DB`
+   
+* 等待時會持續佔用資源
+    * `TCP/IP Conn`
+    * `Main Memory`
+    * `CPU Thread` 
+
+* 用戶的 `F5`, 之前的 Request 並不會取消 (依然消耗資源)
+    
+### Thread pool
+
+* 每個工作開一個 thread 來跑 -> bad idea
+* 先按照 cpu 建立 worker thread pool
+    * 工作丟到 worker
+    * PHP-FPM 架構
+    * `manager-worker pattern`
+    
+* i.e 16-core VM
+    * `16-thread` : works but pricy
+    * 32/64 thread    
+   
+* Java -> JVM(threading management)
+* Golang -> binary包VM
+    * threading management    
+        
+
+## Metrics
+
+* 需要 Track 系統的 Metrics 
+* 當有問題發生時, 才有辦法追蹤
+    * 打開的 connection 沒有關掉 ?
+
+## Logging
+
+* 沒錢 -> logrotate -> AWS S3
+* 有錢 -> ELK
+* DB Status Dump 關鍵 !
+
+## Monitor    
+    
+* 重要資料不要放 log / metrics
+* log -> debug用, 重組案情
+    * sampling -> 取樣放 log 即可.
+    * 重要data 不要放到 log
+* metrix -> 監測系統是否出事
+
+## System tuning
+
+* 沒有足夠的 metrics 則無法優化
+* 先設定 Metrics, 再按照判斷去優化
+
+
+ 
+    
+    
         
            
        
