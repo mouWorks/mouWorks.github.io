@@ -52,6 +52,27 @@
     * 預先加開機器
     * 搶購, 用事先登記和抽籤 方式
 * `Stateless` 才能 AutoScaling, `Stateful` 無法    
-              
+* `Redis/DB` -> 不用 autoscaling, 修改存 key 的規則
 
+* `HAProxy` -> DB ScaleUp/ScaleDown
+* 用 `HAProxy` 去切換              
+
+* 超過系統流量限制就要 `等待` / `拒絕`
+* 每一層都要 Rate-limiting
+    * Load balancer
+    * App Server
+    * Caching
+    * Database
+* 越早擋住流量, 越能保護後方系統
+* `MySQL` . max_conn -> bad idea
+    * `DB Connection Pool`
+        * TCP/IP three-way handshake
+    * 應該在AppServer 端設定, 讓AppServer 先斷
+* `LoadBalancer` 可以先設定允許的 connection 數量
+* `PHP` 本身沒有 connection pool
+    * `pgpool` , `proxysql` -> AppServer 上面 extension 
+* `PHP` -> `proxysql` -> DB 
+* `Redis` 很需要 pooling.     
+    
+           
        
