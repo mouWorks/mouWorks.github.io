@@ -61,6 +61,7 @@ module.exports = {
           { text: '設計模式', link: '/study/design_pattern.html'},
           { text: 'LeetCode', link: '/study/leetcode.html'},
           { text: 'DailyInterviewPro', link: '/study/dailyInterviewPro.html'},
+          { text: 'JSDC 2017 Note', link: '/study/jsdc_2017.html'},
         ]
       },
       {text: 'Projects',
