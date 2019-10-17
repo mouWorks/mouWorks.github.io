@@ -72,3 +72,32 @@ var greeting = function(name){
 * 如果一定要用全域變數, 可以用傳的方式將 window 物件傳進去
 
 ## Closure
+
+```javascript
+function buildFunction(){
+    var arr = [];
+    
+    for (var i=0;i<3;i++){
+        arr.push(function(){
+            console.log(i);
+        })
+    }
+    return arr;
+}
+
+var fs = buildFunction();
+
+fs[0]();
+fs[1]();
+fs[2]();
+```
+* 這個例子的結果, 會輸出 (3,3,3) 而非 (1,2,3)
+    * 因為 function()內 console.log 並非馬上執行
+    * forloop內先把三個 function 丟進去(裡面有console.log指令)
+    * forloop跑完, i=3
+    * 底下 fs 時,會去呼叫
+    * Reference 去找 console.log(i), 此時 i都為3
+    * console.log是在底下 fs呼叫時才執行, 而非 loop內. 此時i已經都為 3
+
+
+
