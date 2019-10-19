@@ -1,4 +1,4 @@
-# jobfinder
+# jobHunter
 
 ## 要問的問題
 * 何時會給Credit ?
