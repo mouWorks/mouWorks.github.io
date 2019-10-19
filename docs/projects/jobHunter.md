@@ -1,8 +1,11 @@
 # jobHunter
 
 ## 要問的問題
-* 何時會給Credit ?
+* 何時會給Credit ? (目前看起來是當天)
 * RDS ?
+
+## Backend Repo
+* [mouWorks/jobHunter](https://github.com/mouWorks/jobHunter)
 
 ## Task
 
