@@ -1,8 +1,8 @@
 # Resume
 
+* [Download](https://njs.m0u.work/static/files/resume.pdf)
+
 ### `Contact` mjwangtw@gmail.com
-### Resume Download
-* [Resume.pdf](https://doc.m0u.work/resume/resume.pdf)
 
 ## Summary
 
