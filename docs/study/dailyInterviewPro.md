@@ -301,7 +301,7 @@ Output: [-1, -1]
 Solution Not Ready Yet
 ```
 ---
-###  `0905` | Validate Balanced Parentheses
+###  [DONE] `0905` | Validate Balanced Parentheses
 
 * recently asked by Uber
 ```
@@ -327,10 +327,80 @@ Output: True
 Input: "({[)]"
 Output: False
 ```
-* solution:
+* solution: leetCode passed (Q20)
+* 解法說明: Loop 一次, 先建立個空陣列
+* 奇怪的Case 先提前 return 掉 (如單數(必定false), 字串為空)
+* 建立一個小的 assoc array, 左邊括號對應右邊括號
+* Loop內的步驟:
+    1. 如果為左邊的括號, 寫入一個對應的右側括號, 到 stash 裡面
+    2. 如果為右邊的括號, 則去Stash 檢查(先進先出, 從stash最後檢查起)
+        * 如果 相等 -> 則沒事, 把 stash 該筆拿掉 (array_pop)
+        * 如果不相等 -> 對不起來 -> 可以 return false;
+* Loop跑完後, 去檢查 stash
+    * 全為左括號 (則 Stash會一堆又括號) -> return false 不是我們要的
+    * Stash為空 -> 正確 都消掉了  -> return true;
+
+* 基本上一次 loop 就能消掉.
+
+```php
+/**
+ * @param String $s
+ * @return Integer
+ */
+public function validParentheses($target)
+{
+    //Avoid Extreme Case first
+    $targetArray = str_split($target);
+    $size = count($targetArray);
+
+    if(empty($target)){
+        return true;
+    }
+
+    if($size % 2 == 1){
+        return false;
+    }
+
+    $checkField = [
+        '(' => ')',
+        '[' => ']',
+        '{' => '}',
+    ];
+
+    $stash = [];
+
+    for($i=0; $i < $size; $i++){
+
+        //Left - 如果是左側括號, 則丟一個對應的右側括號到 stash 裡面
+        if(in_array($targetArray[$i], array_keys($checkField))){
+
+            array_push($stash, $checkField[$targetArray[$i]]);
+
+        //right - 如果丟過來的是右側括號, 則去 Stash 裡面找
+        }else{
+
+            //從Stash最右邊開始找起, 如果對不起來, 那一定錯
+            if($targetArray[$i] != $stash[count($stash)-1]){
+                return false;
+            }
+
+            //對的起來 那就把 stash裡面對應的消掉
+            array_pop($stash);
+        }
+    }
+
+    //最後檢查 stash
+    //有可能 如 `((` 會讓 stash裡面寫了兩個同側括號
+    //Stash都清空 -> 那就是 True,
+    //Stash還有東西 -> 非清空
+
+    return count($stash) == 0 ? true : false;
+}
 ```
-Solution Not Ready Yet
-```
+
+
+
+
 ---
 ###  `0904` | Longest Palindromic Substring
 * recently asked by Twitter
