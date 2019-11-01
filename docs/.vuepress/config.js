@@ -21,6 +21,7 @@ module.exports = {
           { text: 'Ansible', link: '/devops/ansible.html'},
           { text: 'Deployer', link: '/devops/deployer.html'},
           { text: 'k8s', link: '/devops/k8s.html'},
+          { text: 'AWS EKS', link: '/devops/eks.html'},
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
           { text: 'AWS CDK', link: '/devops/aws_cdk.html'},
         ]
