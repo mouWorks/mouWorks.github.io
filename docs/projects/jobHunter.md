@@ -1,37 +1,48 @@
 # jobHunter
 
-## 要問的問題
-* 何時會給Credit ? (目前看起來是當天)
-* RDS ?
+## Concept
+* Extend a `Laravel Singleton` app to AWS infra
+* What's added:
+    * AWS CDK for AWS Infra
+    * MySQL -> AWS DynamoDB
+    * AWS CloudSearch for Searching
+    * Dockerize 
+    * Containerized service from `AWS ECS Fargate`
+    * LineChatbot Integration
+        * NodeJS Lambda Function
+    * CircleCI Intergration
 
-## Backend Repo
+## Info
+
+### [jobHuntr.work](https://jobHuntr.work/awshack)
+* [Twitch Demo Replay](https://www.twitch.tv/videos/509372078?fbclid=IwAR1FHtolEi0fsQyL3gz0ID0CK6kbkqI4ZSjwL3ifTv652saP02fPmCaZKAU&t=2h37m15s)
 * [mouWorks/jobHunter](https://github.com/mouWorks/jobHunter)
+    * fork from `fishingboy/jobFinder`
 
-## Task
+### TeamMember
+* Mou.Wang(Infra/DevOps/LineChatbot)
+* David.Lo(Backend)
+* Patty(Design/Frontend)
 
-* Mooncake~ 前端
-* 現有所有的功能清單
-    * Joblist (104/ptt的結果頁)
-    * Joblist (打工機器人結果頁)
-    * Search表單 (等於首頁)
-    * Detail頁
+## Slides
+![image](/jobHunter_slides/slide01.jpg)
+![image](/jobHunter_slides/slide02.jpg)
+![image](/jobHunter_slides/slide03.jpg)
+![image](/jobHunter_slides/slide04.jpg)
+![image](/jobHunter_slides/slide05.jpg)
+![image](/jobHunter_slides/slide06.jpg)
+![image](/jobHunter_slides/slide07.jpg)
+![image](/jobHunter_slides/slide08.jpg)
+![image](/jobHunter_slides/slide09.jpg)
+![image](/jobHunter_slides/slide10.jpg)
+![image](/jobHunter_slides/slide11.jpg)
+![image](/jobHunter_slides/slide12.jpg)
+![image](/jobHunter_slides/slide13.jpg)
+![image](/jobHunter_slides/slide14.jpg)
+![image](/jobHunter_slides/slide15.jpg)
 
-* 後端
-    * RDS ?
-
-* 後端 (chatbot端)
-    * addjob
-        * 台北
-        * 160
-        * 10/20~10/24
-        * 包裝商品
-        * Mooncake0912345678
-        
-* Todo:
-    * fork a new repo
-    
-* 10/26 出 Wireframe 設計稿
-* 11/3  設計圖稿
-* 11/10 DOM (HTML)
+## ScreenShots
+![image](/jobHunter_slides/screenshot01.jpg)
+![image](/jobHunter_slides/screenshot02.jpg)
 
 
