@@ -142,7 +142,11 @@ providing one-stop e-commerce solutions for vendors.
 
 ## Side Projects
 
-* [M1GA - 104 Hackathon](../projects/m1ga.html) 
+* [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
+    * AWS Infra
+    * Dockerized w/Chatbot integration
+
+* [M1GA - 2016 104 Hackathon](../projects/m1ga.html) 
     * MobileWeb design
     * Dockerized
 * SwingEventsTaipei (PHP/CD-enabled)

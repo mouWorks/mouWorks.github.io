@@ -61,9 +61,15 @@
 * DevOps - CD使用 (AWS CodeDeploy)
 * DevOps - 整合開發環境 (Vagrant & Docker)
 * Phpunit 單元測試
+* AWS 相關使用經驗
+    * Lambda
+    * ApiGateway
+    * DynamoDB
+
+## Prizes
+* JobHunter - 2019 AWS HackNRoll 微服務組第三名
+* M1GA - 2016 104 Hackathon 佳作
 
 ## Projects
-
-* M1GA - 104 Hackathon 
 * WeddingHelper
 * SwingEventsTaipei
