@@ -20,9 +20,9 @@
     * fork from `fishingboy/jobFinder`
 
 ### TeamMember
-* Mou.Wang(Infra/DevOps/LineChatbot)
-* David.Lo(Backend)
-* Patty(Design/Frontend)
+* Mou.Wang (Infra/DevOps/LineChatbot) @mouWorks
+* David.Lou (Backend) @rurikaxx
+* Patty (Design/Frontend) 
 
 ## Technical
 
@@ -38,12 +38,12 @@
     
 ### 2 Development Pipelines
 * LambdaPipeline
-    * `User` CodeCommit
+    * `User` commit code
     * `CircleCI` Zip files
     * `CircleCI w/AWS` `aws lambda update-function-code`
     * `Slack` NotifyUser
 * jobHunterPipeline (AWS ECS Fargate)
-    * `User` CodeCommit
+    * `User` commit code
     * `CircleCI` build dependency (composer install && npm i)
     * `CircleCI` CI : Run Unit Tests
     * `CircleCI w/DockerHub` Build Docker Image and Pushed to DockerHub
@@ -53,7 +53,7 @@
 
 #### Alternative (AWS Lightsail)
 * jobHunterPipeline 
-    * `User` CodeCommit
+    * `User` commit code
     * `CircleCI` build dependency (composer install && npm i)
     * `CircleCI` CI : Run Unit Tests
     * `CircleCI w/DockerHub` Build Docker Image and Pushed to DockerHub 
