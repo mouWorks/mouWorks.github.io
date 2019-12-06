@@ -7,15 +7,20 @@
 ### Summary
 * 5年以上後端開發經驗(php)
 * 大型網站維護並開發新功能(電商,人力銀行)
-* Api開發
+* Api 開發
 * DevOps: 導入CICD, 整合 UnitTest
-* SaaS經驗: AWS, GCP   
+* SaaS經驗: 
+    * AWS: EC2, ECS Fargate, Lambda, DynamoDB, CloudSearch
+    * GCP: GCE
+* Hackathon Winner: 
+    * 2019 AWS hackNRoll(第三名) 
+    * 2016 104 Hackathon(佳作)
 
 ### `Senior Backend Developer` @ Zuvio
 #### 2019/04
-* Api設計與開發
-* 導入CI架構(CircleCI)
-* CI整合既有測試元件(PhpUnit)
+* Api 設計與開發
+* 導入CI架構 (CircleCI) 
+* CI 整合既有測試元件(PhpUnit)
 * 開發新功能
     * 考試監控系統
     * 警告系統
@@ -66,10 +71,17 @@
     * ApiGateway
     * DynamoDB
 
-## Prizes
-* JobHunter - 2019 AWS HackNRoll 微服務組第三名
-* M1GA - 2016 104 Hackathon 佳作
+## Awards
+* [JobHunter](../projects/jobHunter.md) - 2019 AWS HackNRoll 微服務組第三名
+* [104 New Start](../projects/m1ga.md) - 2016 104 Hackathon 佳作
 
 ## Projects
-* WeddingHelper
-* SwingEventsTaipei
+
+* SwingEventsTaipei (PHP/CD-enabled)
+* PepeBot 
+    * NodeJS+AWALambda+ApiGateway+CD
+    * Fun Chatbot
+* [WeddingHelper](../projects/weddinghelper.html) 
+    * NodeJS+AWALambda+ApiGateway+CD
+* MouWorks
+    * PersonalSite and Demo

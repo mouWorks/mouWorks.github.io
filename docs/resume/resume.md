@@ -11,9 +11,15 @@
 * Maintain site core APIs and core functions
 * Develop new features based on business requests.
 * DevOps: Introduce CI/CD to current workflow.
+    * CircleCI / TravisCI / CodeShip
 * Integrate UnitTest
-* SaaS Experience: AWS, GCP
+* SaaS Experience: 
+    * AWS : EC2, ECS Fargate, DynamoDB, CloudSearch
+    * GCP : GCE
 * Testing Experience: Test Campaign, Test Cases and Manual Testing
+* Hackathon Winner:
+    * 2019 AWS hackNRoll 3rd place (microservices)
+    * 2016 104 Hackathon Honorable Mention
 
 ### Technical Skills
 
@@ -140,15 +146,18 @@ providing one-stop e-commerce solutions for vendors.
     * Develop Test Scenario and Test cases
     * Manual Testing
 
-## Side Projects
+## Awards
 
 * [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
     * AWS Infra
     * Dockerized w/Chatbot integration
 
-* [M1GA - 2016 104 Hackathon](../projects/m1ga.html) 
+* [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html) 
     * MobileWeb design
     * Dockerized
+
+## Side Projects
+
 * SwingEventsTaipei (PHP/CD-enabled)
 * PepeBot 
     * NodeJS+AWALambda+ApiGateway+CD
