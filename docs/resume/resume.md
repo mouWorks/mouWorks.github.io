@@ -145,6 +145,9 @@ providing one-stop e-commerce solutions for vendors.
 * Testing: 
     * Develop Test Scenario and Test cases
     * Manual Testing
+* Cloud SaaS:
+    * AWS : EC2, ECS Fargate, DynamoDB, CloudSearch, S3
+    * GCP : GCE
 
 ## Awards
 

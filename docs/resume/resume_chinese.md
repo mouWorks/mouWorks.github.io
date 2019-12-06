@@ -19,11 +19,13 @@
 ### `Senior Backend Developer` @ Zuvio
 #### 2019/04
 * Api 設計與開發
-* 導入CI架構 (CircleCI) 
-* CI 整合既有測試元件(PhpUnit)
+* 導入CI架構 (CircleCI) 以增進程式碼品質
+* CI 整合既有測試元件(PhpUnit) 提升測試品質
 * 開發新功能
     * 考試監控系統
+        * 運用 Websocket 技術監控學生考試時行為
     * 警告系統
+        * 自動化系統監控, 避免使用者惡意行為
 
 ### `Web Developer` @ 104
 #### 2016/07 - 2019/02
@@ -79,9 +81,9 @@
 
 * SwingEventsTaipei (PHP/CD-enabled)
 * PepeBot 
+    * 趣味Chatbot
     * NodeJS+AWALambda+ApiGateway+CD
-    * Fun Chatbot
 * [WeddingHelper](../projects/weddinghelper.html) 
     * NodeJS+AWALambda+ApiGateway+CD
 * MouWorks
-    * PersonalSite and Demo
+    * PersonalSite and Experiments
