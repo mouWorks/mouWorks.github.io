@@ -22,7 +22,7 @@
 ### TeamMember
 * Mou.Wang (Infra/DevOps/LineChatbot) @mouWorks
 * David.Lou (Backend) @rurikaxx
-* Patty (Design/Frontend) 
+* Patty (Design/Frontend) @smooncake
 
 ## Technical
 
