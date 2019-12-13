@@ -17,6 +17,7 @@ module.exports = {
     nav:[ // 导航栏配置
       {text: 'DevOps', link: '/devops/',
         items: [
+          { text: 'Deployment', link: '/devops/deployment.html'},
           { text: 'Linux', link: '/devops/linux.html'},
           { text: 'CircleCI', link: '/devops/circleci.html'},
           { text: 'Ansible', link: '/devops/ansible.html'},

@@ -2,9 +2,9 @@
 
 	DNS commands:
 		
-		nslookup
+		`nslookup`
 	
-TCP Protocl 的好酷
+TCP Protocl 的好處
 1. 安全地交換資料
 
 何謂 UDP:
@@ -17,15 +17,13 @@ TCP Protocl 的好酷
 * `kill` : 刪掉 process by pid
 * `killall proc`: 刪掉所有的 process
 
-Foreground/background jobs in linux
-
-* `fg` : 顯示最近的前景程式 (foreground jobs)
-* `fg $name`: 把 background 的 job $name 拉到前景 
-* `bg` : 回覆原本的程式, 也會顯示出 background 程式.
-
-* `df` : Detail Disk usage
-* `du` : Disk Space usage 
-* `free` : Show Free Spaces
+* Foreground/background jobs in linux
+    * `fg` : 顯示最近的前景程式 (foreground jobs)
+    * `fg $name`: 把 background 的 job $name 拉到前景 
+    * `bg` : 回覆原本的程式, 也會顯示出 background 程式.
+    * `df` : Detail Disk usage
+    * `du` : Disk Space usage 
+    * `free` : Show Free Spaces
 
 How to Tar a file
 
