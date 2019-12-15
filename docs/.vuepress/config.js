@@ -30,6 +30,7 @@ module.exports = {
       },
       {text: '後端', link: '/backend/',
         items: [
+          { text: 'NestJS', link: '/backend/nestjs.html'},
           { text: 'DB備份', link: '/backend/DB_backup.html'},
           { text: 'Redis', link: '/backend/redis.html'},
           { text: 'Cassandra', link: '/backend/cassandra.html'},

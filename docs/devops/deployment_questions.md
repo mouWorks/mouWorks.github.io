@@ -2,20 +2,25 @@ A** Cloud Support Engineer (Deployment) Questions
 限時: 30分鐘
 
 1. docker stop 和 docker kill 差異為何?
-``
 
-``
+```
+docket stop: 先送出 SIGTERM, 等待 grace period 後送出 SIGKILL 訊號
+docker kill: 直接送出 SIGKILL 信號, 不管 docker 狀態.
+```
+
 2. 遇到一個 container exit(1) 4 days ago, 你會如何排除障礙?
    (盡可能詳列排除的步驟)
 
 3. 何謂 docker 0 bridge ? 請詳列你的想法
 ```
-docker0 bridge 
+docker0 bridge 是 docker 內部的 default network
 ```
 4. DockerPullImage 遇到以下問題, 請列出可能性以及排除障礙的步驟
    * `error: CannotPullContainerError: API error (500): Get https://111122223333.dkr.ecr.us-east-1.amazonaws.com/v2/: net/http: request canceled while waiting for connection"`
 
 5. 當你用SSH進入Linux 機器, 請問 Connection Time Out 和 Connection Refused 差異為何?
+
+
 
 6. 說明 Curl 和 Ping 的差異
 $ping amazon.com (http://amazon.com/)
