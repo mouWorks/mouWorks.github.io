@@ -17,8 +17,21 @@
 
 * Data Transfer Object
 
+#### ORM (Object Relational Mapping)
+* 用 `OOP` 的方式操作資料庫存取
+* Pros:
+    * Easier to maintain.
+    * 自動化 db binding, 資料結構, relations
+    * No SQL Syntax required
+    * DB抽象化 - 方便抽換DB
+    * 運用 OOP概念, 便於繼承
 
-#### Pipes
+#### TypeORM
+    * Entity: 用來表示 Tables
+    * Repository: 
+
+
+#### Pipes (Validations)
 
 * 可以用來過濾資料
 * Parameter-level pipes :
@@ -28,3 +41,4 @@
         * Parameter 端不需要多餘的Code
         * 較容易擴展
         * 配合 DTO 使用 比較好
+
