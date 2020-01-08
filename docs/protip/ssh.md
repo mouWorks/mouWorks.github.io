@@ -17,4 +17,3 @@ SSH && SCP
 * 從 SERVER 拿檔案
     * ```scp {USER_ID}@{SERVER_IP}:{SERVER_FILE_PATH} {LOCAL_PATH}```
 * 傳檔案 到 SERVER
-    * 
