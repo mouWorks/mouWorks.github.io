@@ -41,7 +41,7 @@ module.exports = {
           { text: 'Nodejs', link: '/backend/nodejs.html'},
           { text: 'Redis Vs Memcached', link: '/backend/redisVsMc.html'},
           { text: 'JS 設計模式', link: '/backend/js_pattern.html'},
-          { text: 'SQL練習', link: '/backend/sql.html'},
+          { text: 'SQL練習', link: '/backend/sql.html'
         ]
       },
       {text: 'Protip', link: '/protip/',
@@ -53,6 +53,7 @@ module.exports = {
           { text: 'SlowLog', link: '/protip/slowlog.html'},
           { text: 'logrotate', link: '/protip/logrotate.html'},
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
+          { text: 'SSH & SCP', link: '/protip]/ssh.html'}
         ]
       },
       {text: 'Resume',
