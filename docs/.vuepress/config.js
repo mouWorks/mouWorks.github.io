@@ -26,6 +26,7 @@ module.exports = {
           { text: 'AWS EKS', link: '/devops/eks.html'},
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
           { text: 'AWS CDK', link: '/devops/aws_cdk.html'},
+          { text: 'k8s Note', link: '/devops/k8s_note.html'},
         ]
       },
       {text: '後端', link: '/backend/',
