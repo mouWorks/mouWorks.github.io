@@ -1,10 +1,8 @@
 何謂 TCP/UDP:
 
-	DNS commands:
-		
-		`nslookup`
+* DNS commands: `nslookup`
 	
-TCP Protocl 的好處
+TCP Protocol 的好處
 1. 安全地交換資料
 
 何謂 UDP:
