@@ -27,6 +27,7 @@ module.exports = {
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
           { text: 'AWS CDK', link: '/devops/aws_cdk.html'},
           { text: 'k8s Note', link: '/devops/k8s_note.html'},
+          { text: 'prometheus', link: '/devops/pms.html'},
         ]
       },
       {text: '後端', link: '/backend/',
@@ -54,7 +55,7 @@ module.exports = {
           { text: 'SlowLog', link: '/protip/slowlog.html'},
           { text: 'logrotate', link: '/protip/logrotate.html'},
           { text: 'php-fpm', link: '/protip/php-fpm.html'},
-          { text: 'SSH & SCP', link: '/protip/ssh.html'}
+          { text: 'SSH & SCP', link: '/protip/ssh.html'},
         ]
       },
       {text: 'Resume',

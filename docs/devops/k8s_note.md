@@ -45,4 +45,5 @@ eksctl delete cluster --name=eksworkshop-eksctl
 ## Kubectl
 
 * 常用指令
-    *    
+
+
