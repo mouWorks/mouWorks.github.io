@@ -20,6 +20,7 @@ if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
   cd out
 
 #  sudo echo "doc.m0u.work" > CNAME
+#  Try this?
 
   git add -A
   git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
