@@ -28,6 +28,7 @@ module.exports = {
           { text: 'AWS CDK', link: '/devops/aws_cdk.html'},
           { text: 'k8s Note', link: '/devops/k8s_note.html'},
           { text: 'prometheus', link: '/devops/pms.html'},
+          { text: 'k8s Course', link: '/devops/k8s_course.html'},
         ]
       },
       {text: '後端', link: '/backend/',
