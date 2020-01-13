@@ -19,7 +19,7 @@ if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
   mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
   cd out
 
-  sudo echo "doc.m0u.work" > CNAME
+#  sudo echo "doc.m0u.work" > CNAME
 
   git add -A
   git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
