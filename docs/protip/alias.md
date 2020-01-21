@@ -1,4 +1,9 @@
-# Alias
+# Alias && git 
+
+## Git branch 不使用頁面呈現
+```bash
+git config --global pager.branch false
+```
 
 ## 常用的 alias
 
@@ -42,3 +47,6 @@ nah='git reset --hard && git clean -df'
 ```bash
 function mygrep { grep -rnIi "$1" . --color; }
 ```
+
+
+
