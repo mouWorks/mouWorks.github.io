@@ -34,6 +34,9 @@ for (let i = 0; i < nums.length; i++) {
 }
 ```
 
+* 001 TwoSum
+
+
 ### 雜湊 HashMap
 
 -   在跑 loop 的時候建立一個 hashMap, 把值丟進去
@@ -54,6 +57,8 @@ for (let index = 0; index < nums.length; index++) {
 }
 ```
 
+* 001 TwoSum
+
 ### 雙指針
 
 #### 其實是 for-loop 的變體, 在迴圈內跑 `兩個東西` 而非 `一個`
@@ -62,6 +67,7 @@ for (let index = 0; index < nums.length; index++) {
 
 #### 左右指針
 
+-   重點: 需要 array 為 `Sorted` 排序過的.
 -   可以視為 `頭尾指針`, 一個由 0 走到尾, 一個由尾 走到 0, 兩者在中間相會
 
 ```javascript
@@ -70,6 +76,8 @@ for (let head = 0; head < data.length; head++) {
     console.log("Block statement execution no." + i);
 }
 ```
+
+
 
 #### 滑動窗格 (Sliding Window)
 
