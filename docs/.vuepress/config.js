@@ -77,7 +77,7 @@ module.exports = {
       },
       {text: 'LeetCode',
         items: [
-          { text: '_001_TwoSum', link: '/leetCode/_001_TwoSum.html'},
+          { text: 'TwoSum_001_Easy', link: '/leetCode/TwoSum_001.html'},
         ]
       },
       {text: 'Projects',
