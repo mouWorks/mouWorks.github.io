@@ -1,5 +1,6 @@
 # MouWorks doc
 
+### Switch to `src` branch and edit doc -> will generate pages and push to github pages
 * mouworks.github.io
 * Blog && Doc && BlackBeltTips
 * Now Auto Deploy w/CircleCI !!
