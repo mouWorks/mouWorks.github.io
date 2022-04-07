@@ -16,7 +16,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             # This key require additional setup @circleCI
-            - "62:4d:ab:56:f5:10:07:b0:1a:41:02:ea:fa:ae:98:93"
+            - "35:a9:e1:a1:6d:e7:f6:95:e5:fa:48:e2:95:00:8b:ce"
       - checkout
 
       - restore_cache:
