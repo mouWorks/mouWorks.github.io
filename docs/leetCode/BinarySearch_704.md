@@ -34,6 +34,17 @@ while(left <= right){
 }
 ```
 
-[詳細解說](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md)
+#### 本題解法:
+1. Loop-thru (暴力解) O(N)
+    * 最無腦解法, 但需要遍歷
+2. Two-Pointer (雙指針) 
+    * 遍歷的加強版, 頭尾走
+3. 二分搜尋法
+    * 如果已經排序, 又沒有重複元素, 則可以使用二分搜索法.
+
+[二分搜尋-詳細解說](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0704.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md)
+
+
+
 
 
