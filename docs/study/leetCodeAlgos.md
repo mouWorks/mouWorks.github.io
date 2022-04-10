@@ -67,8 +67,8 @@ for (let index = 0; index < nums.length; index++) {
 
 #### 左右指針
 
--   重點: 需要 array 為 `Sorted` 排序過的.
--   可以視為 `頭尾指針`, 一個由 0 走到尾, 一個由尾 走到 0, 兩者在中間相會
+-  重點: 需要 array 為 `Sorted` 排序過的.
+-  可以視為 `頭尾指針`, 一個由 0 走到尾, 一個由尾 走到 0, 兩者在中間相會
 
 ```javascript
 for (let head = 0; head < data.length; head++) {
@@ -77,8 +77,9 @@ for (let head = 0; head < data.length; head++) {
 }
 ```
 
-
-
 #### 滑動窗格 (Sliding Window)
+##### 可以視為雙指針的變體
+
+#### 二元搜索 (Binary Search)
 
 #### 動態規劃 DP (Dynamic Programming)

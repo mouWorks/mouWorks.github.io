@@ -77,10 +77,11 @@ module.exports = {
       },
       {text: 'LeetCode',
         items: [
-          { text: 'TwoSum_001_Easy', link: '/leetCode/TwoSum_001.html'},
-          { text: 'RemoveElement_027_Easy', link: '/leetCode/RemoveElement_027.html'},
-          { text: 'BinarySearch_704_Easy', link: '/leetCode/BinarySearch_704.html'},
+          { text: '001 | Easy | Two Sum', link: '/leetCode/TwoSum_001.html'},
+          { text: '027 | Easy | Remove Element', link: '/leetCode/RemoveElement_027.html'},
+          { text: '704 | Easy | Binary Search', link: '/leetCode/BinarySearch_704.html'},
           { text: '977 | Easy | SortedArraySquare', link: '/leetCode/SortedArraySquare_977.html'},
+          { text: '209 | Easy | Minimum Size SubArray Sum', link: '/leetCode/MinimumSizeSubArraySum_209.html'},
         ]
       },
       {text: 'Projects',
