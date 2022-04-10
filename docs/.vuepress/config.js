@@ -80,7 +80,7 @@ module.exports = {
           { text: 'TwoSum_001_Easy', link: '/leetCode/TwoSum_001.html'},
           { text: 'RemoveElement_027_Easy', link: '/leetCode/RemoveElement_027.html'},
           { text: 'BinarySearch_704_Easy', link: '/leetCode/BinarySearch_704.html'},
-          { text: 'SortedArraySquare_977_Easy', link: '/leetCode/SortedArraySquare_977.html'},
+          { text: '977 | Easy | SortedArraySquare', link: '/leetCode/SortedArraySquare_977.html'},
         ]
       },
       {text: 'Projects',
