@@ -9,8 +9,8 @@
 * 7年以上後端開發經驗(NodeJS, Php)
     * 2 years NodeJS (Express) + TypeScript 
     * 5 years PHP
+* App後端Api開發,以及維護新功能(共享機車服務)
 * 大型網站維護並開發新功能(電商,人力銀行)
-* Api 開發
 * DevOps: 
     * CI/CD 導入,整合,調整:
        * GitlabCI / CircleCI 
