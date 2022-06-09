@@ -1,8 +1,7 @@
 # Resume
 
--   [Download](https://njs.m0u.work/static/files/resume.pdf)
-
-### `Contact` mjwangtw@gmail.com
+### Thank you for reaching here, Recruiters / Hiring Managers !
+### `Contact` via mjwangtw@gmail.com , thank you :) 
 
 ## Summary
 

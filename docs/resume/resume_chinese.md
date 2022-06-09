@@ -1,23 +1,43 @@
 # Resume
 
-### `Contact` mjwangtw@gmail.com
+### Thank you for reaching here, Recruiters / Hiring Managers !
+### `Contact` via mjwangtw@gmail.com , thank you :) 
 
-## Work Exp
+## Work Experience
 
 ### Summary
-* 5年以上後端開發經驗(php)
+* 7年以上後端開發經驗(NodeJS, Php)
+    * 2 years NodeJS (Express) + TypeScript 
+    * 5 years PHP
 * 大型網站維護並開發新功能(電商,人力銀行)
 * Api 開發
-* DevOps: 導入CICD, 整合 UnitTest
+* DevOps: 
+    * CI/CD 導入,整合,調整:
+       * GitlabCI / CircleCI 
+    * 整合 UnitTest 以及優化.
 * SaaS經驗: 
     * AWS: EC2, ECS Fargate, Lambda, DynamoDB, CloudSearch
-    * GCP: GCE
+    * GCP: GCE, GKE (k8s)
 * Hackathon Winner: 
     * 2019 AWS hackNRoll(第三名) 
     * 2016 104 Hackathon(佳作)
 
+### `Senior SoftWare Engineer` @ WeMo Scooter
+#### 2020/01 - Now
+* 開發強健的 Api: 設計, 開發, 並且涵蓋測試
+* 程式品質提升
+    * 重構既有程式: 既有的無測試JS程式碼, 改為嚴謹的 TypeScript 程式碼並且涵蓋測試
+    * 提升測試涵蓋率:
+        * 撰寫 Jest 測試程式
+* Infra 基礎架構改善
+    * 協助將核心系統由 VM-based 改為 k8s-based
+    * CI 架構的調整: 縮短跑測試的時間
+* 開發系統功能:
+    * 系統核心功能
+    * 行銷活動功能
+
 ### `Senior Backend Developer` @ Zuvio
-#### 2019/04
+#### 2019/04 - 2019/09
 * Api 設計與開發
 * 導入CI架構 (CircleCI) 以增進程式碼品質
 * CI 整合既有測試元件(PhpUnit) 提升測試品質
