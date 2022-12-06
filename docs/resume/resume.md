@@ -1,7 +1,7 @@
 # Resume
 
 ### Thank you for reaching here, Recruiters / Hiring Managers !
-### `Contact` via mjwangtw@gmail.com , thank you :) 
+### `Contact` via mou.wang.works@gmail.com , thank you :) 
 
 ## Summary
 
@@ -214,9 +214,8 @@
 
 ## Side Projects
 
--   SwingEventsTaipei (PHP/CD-enabled)
--   PepeBot
-    -   NodeJS+AWALambda+ApiGateway+CD
+-   Line Chatbot
+    -   NodeJS+AWALambda+ApiGateway+CircleCI Deployment
     -   Fun Chatbot
 -   [WeddingHelper](../projects/weddinghelper.html)
     -   NodeJS+AWALambda+ApiGateway+CD

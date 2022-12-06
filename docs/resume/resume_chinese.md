@@ -1,7 +1,7 @@
 # Resume
 
 ### Thank you for reaching here, Recruiters / Hiring Managers !
-### `Contact` via mjwangtw@gmail.com , thank you :) 
+### `Contact` via mou.wang.works@gmail.com , thank you :) 
 
 ## Work Experience
 

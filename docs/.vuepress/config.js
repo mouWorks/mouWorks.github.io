@@ -89,7 +89,6 @@ module.exports = {
           { text: 'jobHunter', link: '/projects/jobHunter.html'},
           { text: 'M1GA', link: '/projects/m1ga.html'},
           { text: 'WeddingHelper', link: '/projects/weddinghelper.html'},
-          { text: 'SwingEventsTaipei', link: '/projects/swingEventsTaipei.html'},
         ]
       },
       {text: 'Site', link: 'https://m0u.work' }
