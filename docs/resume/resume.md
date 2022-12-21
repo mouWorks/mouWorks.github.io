@@ -15,10 +15,12 @@
     -   GitlabCI / CircleCI / TravisCI
     -   ArgoCD
 -   Integrate Unit test
--   Cloud Native Experience:
+-   Tech Stack:
     -   AWS : EC2, Lambda, Api Gateway
     -   GCP : GCE, GKE
     -   IaC : Terraform, Docker, K8s
+    -   Database: Postgres, MySQL
+    -   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
 -   Testing Experience: Jest Api Testing, Test Campaign, Test Cases and Manual Testing
 -   Hackathon Winner:
     -   2019 AWS hackNRoll 3rd place (microservices)
