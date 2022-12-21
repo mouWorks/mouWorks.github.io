@@ -4,18 +4,21 @@
 ### `Contact` via mou.wang.works@gmail.com , thank you :) 
 
 ## Summary
+### Software Engineering in Backend Development
 
--   Over 2 Years Javascript Backend Development (JavaScript / TypeScript)
--   Over 5 Years backend development experience (PHP)
+-   3 years Javascript Backend Development (JavaScript / TypeScript)
+-   5 Years backend development experience (PHP)
 -   Large Website develop experience (e-Commerce / human-resource)
 -   Maintain site core APIs and core functions
 -   Develop new features based on business requests.
--   DevOps: Introduce CI/CD to current workflow.
+-   DevOps: Introduce CI/CD to current workflow. Tune CI pipeline to reduce deliver time.
     -   GitlabCI / CircleCI / TravisCI
--   Integrate UnitTest
--   SaaS Experience:
-    -   AWS : EC2, ECS Fargate, DynamoDB, CloudSearch
+    -   ArgoCD
+-   Integrate Unit test
+-   Cloud Native Experience:
+    -   AWS : EC2, Lambda, Api Gateway
     -   GCP : GCE, GKE
+    -   IaC : Terraform, Docker, K8s
 -   Testing Experience: Jest Api Testing, Test Campaign, Test Cases and Manual Testing
 -   Hackathon Winner:
     -   2019 AWS hackNRoll 3rd place (microservices)
