@@ -26,42 +26,6 @@
     -   2019 AWS hackNRoll 3rd place (microservices)
     -   2016 104 Hackathon Honorable Mention
 
-### Technical Skills
-
-| Category       | Name                             | Version | Year            | Period       |
-| :------------- | :------------------------------- | :------ | :-------------- | :----------- |
-| Code           | TypeScript                       |         | 2020 - now      | 2 years      |
-| Code           | JavaScript                       |         | 2020 - now      | 2 years      |
-| Code           | PHP                              | 5.x / 7 | 2014 - now      | over 5 years |
-| Frameworks     | Express Framework (JS)           |         |                 |              |
-| Frameworks     | NestJS (TS)                      |         |                 |              |
-| Frameworks     | Yii Framework (PHP)              | 1.1     | 2016-2019       | over 2 years |
-| Frameworks     | CodeIgniger (PHP)                | 2       | 2014-2016, 2019 | over 3 years |
-| Frameworks     | Laravel                          |         | 2014            |              |
-| Databases      | MySQL                            |         | 2014,2016       |              |
-| Databases      | PostgresSQL                      |         |                 |              |
-| Tools (VCS)    | Git                              |         | 2014~now        |              |
-| CD             | ArgoCD                           |         | 2020            |              |
-| CI             | GitlabCI                         |         | 2020            |              |
-| CI/CD          | CircleCI                         |         | 2019            |              |
-| CI/CD          | TravisCI                         |         | 2017~2019       |              |
-| CI/CD          | CodeDeploy (AWS)                 |         | 2017~2019       |              |
-| Tools (DevOps) | Vagrant                          |         | 2014~2019       |              |
-| Tools (DevOps) | Docker                           |         | 2019            |              |
-| Tools (DevOps) | Kubernetes                       |         | 2021            |              |
-| Saas (AWS)     | EC2, S3, Lambda, ApiGateway, ALB |         | 2016~2019       |              |
-| Saas (GCP)     | GCP                              |         | 2019            |              |
-
-### Language
-
--   English (Fluent Speaking and Writing)
--   Mandrin (Native)
-
-### Education
-
--   University of Pittsburgh, Pittsburgh, PA
--   MS in Information Science, 2009~2010
-
 ## Work Experience
 
 ### `Senior Software Engineer` @ WeMoScooter - Taipei, Taiwan
@@ -193,10 +157,10 @@
 
 ## Skills
 
+-   Backend Api Develop with NodeJS / TypeScript 
 -   Website backend development with PHP
     -   Frameworks: CodeIgniter 2, Yii 1.1, Slim, Laravel
--   DevOps - Introduce CI tools to workflow (TravisCI, CircleCI, CodeShip)
--   DevOps - Integrate CD to workflow (AWS CodeDeploy)
+-   DevOps - Introduce CI tools to workflow (TravisCI, CircleCI)
 -   DevOps - Integrate develop environment (Vagrant & Docker)
 -   Phpunit Testing
 -   Testing:
@@ -204,7 +168,18 @@
     -   Manual Testing
 -   Cloud SaaS:
     -   AWS : EC2, ECS Fargate, DynamoDB, CloudSearch, S3
-    -   GCP : GCE
+    -   GCP : GCE, GKE
+
+### Language
+
+-   English (Fluent Speaking and Writing)
+-   Mandrin (Native)
+
+### Education
+
+-   University of Pittsburgh, Pittsburgh, PA
+-   MS in Information Science, 2009~2010
+
 
 ## Awards
 
