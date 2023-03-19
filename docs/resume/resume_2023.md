@@ -28,25 +28,25 @@
 
 -   2020/01 - Now
 
-##### NodeJS / TypeScript / GCP / Kubernetes / PostgresSQL / Redis / GitlabCI / ArgoCD
+#### NodeJS / TypeScript / GCP / Kubernetes / PostgresSQL / Redis / GitlabCI / ArgoCD
 
-##### Spearheaded Infrastructure Upgrade
+#### Spearheaded Infrastructure Upgrade
 
 1. Dockerized core system and migrated to Kubernetes environment (GKE)
 2. Optimized existing features with Queue architecture to improve connection and performance
 
-##### Developed System Features
+#### Developed System Features
 
 1. Developed backend API with full API tests and integrated CI pipeline for quality and robustness
 2. Utilized Kubernetes for scalable solutions
 
-##### Improved System Stability
+#### Improved System Stability
 
 1. Refactored JS code to TypeScript with full test coverage
 2. Improved test coverage through writing additional tests
 3. Optimized CI pipeline to minimize processing time
 
-##### Provided Technical and Architectural Guidance
+#### Provided Technical and Architectural Guidance
 
 1. Designed and developed systems and features based on PM requirements
 2. Built an in-house reporting and monitoring system for instant PM feedback.
@@ -55,9 +55,9 @@
 
 -   2019/04 - 2019/09
 
-##### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
+#### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
 
-##### BE Develop and infra improvement
+#### BE Develop and infra improvement
 
 -   Introduce CircleCI infra to automate deliver pipeline
 -   Integrate Unit test in CI to improve Code Quality
@@ -68,20 +68,20 @@
 
 -   2016/07 - 2019/02
 
-##### PHP / AWS / IDC
+#### PHP / AWS / IDC
 
-##### Feature development
+#### Feature development
 
-###### Maintain major website and develop new features
+##### Maintain major website and develop new features
 
 -   JobSearch Website (PC)
 -   JobSearch Website (Mobile)
 -   Common Api
 -   Campaign websites
 
-###### Develop campaign website with 100% cloud-based (AWS) infrastructure
+##### Develop campaign website with 100% cloud-based (AWS) infrastructure
 
-###### Maintain and upgrade system
+##### Maintain and upgrade system
 
 -   Https upgrade
 -   Security updates
@@ -90,9 +90,9 @@
 
 -   2014/02 - 2016/04
 
-##### PHP / IDC / Backend Development
+#### PHP / IDC / Backend Development
 
-##### Feature development
+#### Feature development
 
 -   Maintain and enhance site-wise system core API: SaleQty API.
 -   Maintain and enhance core pages : Item page.
@@ -102,7 +102,7 @@
 
 -   2011/07 - 2012/11
 
-##### Functional Testing
+#### Functional Testing
 
 -   manual/automation function test including formulating test scenario and test cases, executing test cases and report, raising defect via Rational ClearQuest.
 
@@ -110,14 +110,14 @@
 
 -   2011/04 - 2011/07
 
-##### Quality Assurance Engineer:
+#### Quality Assurance Engineer:
 
 -   Formulate test strategies for various products: web app/mobile web/commercial website.
 -   Develop and prioritize test scenarios in collaboration with business analyst and developer, execute test scripts manually or with automated tool.
 -   Analyze defect level, detailed document bugs including screenshot/reproduce steps/possible root cause.
 -   Utilize open source web UI test automation tool 'Selenium' with 'Bromine' integrated test tasking environment.
 
-##### Web Developer:
+#### Web Developer:
 
 -   Design website and database schema
 -   Assist document MRD( Marketing Requirement Document)
@@ -125,18 +125,18 @@
 
 ### Education
 
-##### University of Pittsburgh, Pittsburgh, PA
+#### University of Pittsburgh, Pittsburgh, PA
 
-##### MS in Information Science, 2009~2010
+#### MS in Information Science, 2009~2010
 
 ## Awards
 
-##### [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
+#### [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
 
 -   AWS Infra
 -   Dockerized w/Chatbot integration
 
-##### [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html)
+#### [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html)
 
 -   MobileWeb design
 -   Dockerized
