@@ -1,182 +1,151 @@
 # Resume
 
 ## Mou-Chun Wang
-### Senior Software Engineer (Backend Development) 
+
+### Senior Software Engineer (Backend Development)
 
 ### Summary
-#### Over 7 year Web Develop Experience.
-* Backend System and api 
-* System Architecture
-* Automation and Infrastructure
 
--   3 years Javascript Backend Development (JavaScript / TypeScript)
--   5 Years backend development experience (PHP)
--   Large Website develop experience (e-Commerce / human-resource)
--   Maintain site core APIs and core functions
--   Develop new features based on business requests.
--   DevOps: Introduce CI/CD to current workflow. Tune CI pipeline to reduce deliver time.
+#### Over 7 year Web Develop Experience.
+
+-   Backend System and api
+-   System Architecture
+-   Automation and Infrastructure
+
+*   3 years Javascript Backend Development (JavaScript / TypeScript)
+*   5 Years backend development experience (PHP)
+*   Large Website develop experience (e-Commerce / human-resource)
+*   Maintain site core APIs and core functions
+*   Develop new features based on business requests.
+*   DevOps: Introduce CI/CD to current workflow. Tune CI pipeline to reduce deliver time.
     -   GitlabCI / CircleCI / TravisCI
     -   ArgoCD
--   Integrate Unit test
--   Tech Stack:
+*   Integrate Unit test
+*   Tech Stack:
     -   AWS : EC2, Lambda, Api Gateway
     -   GCP : GCE, GKE
     -   IaC : Terraform, Docker, K8s
     -   Database: Postgres, MySQL
     -   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
--   Testing Experience: Jest Api Testing, Test Campaign, Test Cases and Manual Testing
--   Hackathon Winner:
+*   Testing Experience: Jest Api Testing, Test Campaign, Test Cases and Manual Testing
+*   Hackathon Winner:
     -   2019 AWS hackNRoll 3rd place (microservices)
     -   2016 104 Hackathon Honorable Mention
 
 ## Work Experience
 
 ### `Senior Software Engineer` @ WeMoScooter - Taipei, Taiwan
-#### 2020/01 - Now
+
+-   2020/01 - Now
+
 ##### NodeJS / TypeScript / GCP / Kubernetes / PostgresSQL / Redis / GitlabCI / ArgoCD
 
-###### Spearheaded Infrastructure Upgrade
+##### Spearheaded Infrastructure Upgrade
+
 1. Dockerized core system and migrated to Kubernetes environment (GKE)
 2. Optimized existing features with Queue architecture to improve connection and performance
 
-###### Developed System Features
+##### Developed System Features
+
 1. Developed backend API with full API tests and integrated CI pipeline for quality and robustness
 2. Utilized Kubernetes for scalable solutions
 
-###### Improved System Stability
+##### Improved System Stability
+
 1. Refactored JS code to TypeScript with full test coverage
 2. Improved test coverage through writing additional tests
 3. Optimized CI pipeline to minimize processing time
 
-###### Provided Technical and Architectural Guidance
+##### Provided Technical and Architectural Guidance
+
 1. Designed and developed systems and features based on PM requirements
 2. Built an in-house reporting and monitoring system for instant PM feedback.
 
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
 
-#### 2019/04 - 2019/09
+-   2019/04 - 2019/09
 
--   Zuvio provides an app solution for college teachers/students
-    where teachers can simply prepare class materials, do pop quiz and make roll calls.
-    Also Zuvio provides a social network for college students.
+##### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
 
--   Major Duty:
+##### Design and develop Api
 
-    -   Develop and design new Api
-    -   Introduce CI tools (CircleCI) to improve code quality
-    -   Integrate PhpUnit to CircleCI to automate tests
-    -   Rapid develop new feature based on requests.
+##### Introduce CircleCI infra to improve Code Quality
 
--   Projects:
-    -   Test Monitoring system (Anti-cheat)
-        -   Using Websocket to monitor student class login behavior, create a dashboard for teachers to monitor.
-    -   User warning system (avoid user misbehave)
-        -   Automate current system task to alert users.
+##### CI integrate with UnitTest to improve Code Quality
+
+##### Design system based on WebSocket to monitor user behavior
+
+##### Automate monitor system to ban user with misbehavior
 
 ### `Web Developer` @ 104 - Taipei, Taiwan
 
-#### 2016/07 - 2019/02
+-   2016/07 - 2019/02
 
--   104 serves as largest human-resource website in Taiwan and considered as first choice when finding new jobs.
+##### PHP / AWS / IDC
 
--   Major Duty:
-    -   Maintain major website and develop new features, such as:
-        -   JobSearch Website (PC)
-        -   JobSearch Website (Mobile)
-        -   Common Api
-        -   Campaign websites
-    -   Develop campaign website with 100% cloud-based (AWS) infrastructure
-    -   Maintain and upgrade system
-        -   Https upgrade
-        -   Security updates
--   Projects:
-    -   Upgrade JobSearch feature
-    -   JobSearch Feature A/B Test
-    -   POC for new feature: JobSearch for Managers
-    -   Supersales: a campaign site with CI/CD integrated
-    -   AccountCenter Upgrade
-    -   Freshman: admin panel for PM
-    -   Heartfelt: a campaign site integrated with AWS Lambda (NodeJS)
+##### Feature development
+
+-   Maintain major website and develop new features
+    -   JobSearch Website (PC)
+    -   JobSearch Website (Mobile)
+    -   Common Api
+    -   Campaign websites
+-   Develop campaign website with 100% cloud-based (AWS) infrastructure
+-   Maintain and upgrade system
+    -   Https upgrade
+    -   Security updates
 
 ### `Web Developer` @ uitox - Taipei, Taiwan
 
-#### 2014/02 - 2016/04
+-   2014/02 - 2016/04
 
--   uitox is one of e-commerce innovators in Taiwan,
-    providing one-stop e-commerce solutions for vendors.
+##### PHP / IDC / Backend Development
 
--   Major Duty:
+##### Feature development
 
-    -   Maintain and enhance site-wise system core API: SaleQty API.
-    -   Maintain and enhance core pages : Item page.
-    -   Develop and extend in-house tools for PM and Developers.
-
--   Highlight Projects:
-    -   Crossborder: Integrate new data source and rules for oversea products.
-    -   Itempage Enhancement: Upgrade item page with new features.
-    -   Saleqty API upgrade: Upgrade core SaleQTY API with new site features.
-    -   Flashsale : Integrate backend data to display discount items.
-    -   Custom Pages: Provide tools for PM/Vendor to create custom page.
+-   Maintain and enhance site-wise system core API: SaleQty API.
+-   Maintain and enhance core pages : Item page.
+-   Develop and extend in-house tools for PM and Developers
 
 ### `Consultant` @ SDLC Partners - Pittsburgh, PA, USA
 
-#### 2011/07 - 2012/11
+-   2011/07 - 2012/11
 
--   Software Quality Assurance Analyst functions at Highmark QA team. (eMarketing Web Operations Team)
--   Functional Testing:
-    -   manual/automation function test including formulating test scenario and test cases,
-        executing test cases and report, raising defect via Rational ClearQuest.
--   Parallel Testing:
-    -   parallel testing for both front-end and backend data warehouse system.
+##### Functional Testing
+
+-   manual/automation function test including formulating test scenario and test cases, executing test cases and report, raising defect via Rational ClearQuest.
 
 ### `Quality Assurance / Developer` @ Songwhale - Pittsburgh, PA, USA
 
-#### 2011/04 - 2011/07
+-   2011/04 - 2011/07
 
--   Quality Assurance Engineer:
+##### Quality Assurance Engineer:
 
-    -   Formulate test strategies for various products: web app/mobile web/commercial website.
-    -   Develop and prioritize test scenarios in collaboration with business analyst and developer, execute test scripts manually or with automated tool.
-    -   Analyze defect level, detailed document bugs including screenshot/reproduce steps/possible root cause.
-    -   Utilize open source web UI test automation tool 'Selenium' with 'Bromine' integrated test tasking environment.
+-   Formulate test strategies for various products: web app/mobile web/commercial website.
+-   Develop and prioritize test scenarios in collaboration with business analyst and developer, execute test scripts manually or with automated tool.
+-   Analyze defect level, detailed document bugs including screenshot/reproduce steps/possible root cause.
+-   Utilize open source web UI test automation tool 'Selenium' with 'Bromine' integrated test tasking environment.
 
--   Web Developer:
-    -   Design website and database schema
-    -   Assist document MRD( Marketing Requirement Document)
-    -   Develop mobile website utilizing MySQL and Php.
+##### Web Developer:
 
-## Skills
-
--   Backend Api Develop with NodeJS / TypeScript 
--   Website backend development with PHP
-    -   Frameworks: CodeIgniter 2, Yii 1.1, Slim, Laravel
--   DevOps - Introduce CI tools to workflow (TravisCI, CircleCI)
--   DevOps - Integrate develop environment (Vagrant & Docker)
--   Phpunit Testing
--   Testing:
-    -   Develop Test Scenario and Test cases
-    -   Manual Testing
--   Cloud SaaS:
-    -   AWS : EC2, ECS Fargate, DynamoDB, CloudSearch, S3
-    -   GCP : GCE, GKE
-
-### Language
-
--   English (Fluent Speaking and Writing)
--   Mandrin (Native)
+-   Design website and database schema
+-   Assist document MRD( Marketing Requirement Document)
+-   Develop mobile website utilizing MySQL and Php.
 
 ### Education
 
--   University of Pittsburgh, Pittsburgh, PA
--   MS in Information Science, 2009~2010
+##### University of Pittsburgh, Pittsburgh, PA
+
+##### MS in Information Science, 2009~2010
 
 ## Awards
 
--   [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
+##### [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
 
-    -   AWS Infra
-    -   Dockerized w/Chatbot integration
+-   AWS Infra
+-   Dockerized w/Chatbot integration
 
--   [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html)
-    -   MobileWeb design
-    -   Dockerized
+##### [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html)
+
+-   MobileWeb design
+-   Dockerized
