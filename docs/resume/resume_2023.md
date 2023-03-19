@@ -57,15 +57,12 @@
 
 ##### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
 
-##### Design and develop Api
+##### BE Develop and infra improvement
 
-##### Introduce CircleCI infra to improve Code Quality
-
-##### CI integrate with UnitTest to improve Code Quality
-
-##### Design system based on WebSocket to monitor user behavior
-
-##### Automate monitor system to ban user with misbehavior
+-   Introduce CircleCI infra to automate deliver pipeline
+-   Integrate Unit test in CI to improve Code Quality
+-   Design system based on WebSocket to monitor user behavior
+-   Automate monitor system to ban user with misbehavior
 
 ### `Web Developer` @ 104 - Taipei, Taiwan
 
@@ -75,15 +72,19 @@
 
 ##### Feature development
 
--   Maintain major website and develop new features
-    -   JobSearch Website (PC)
-    -   JobSearch Website (Mobile)
-    -   Common Api
-    -   Campaign websites
--   Develop campaign website with 100% cloud-based (AWS) infrastructure
--   Maintain and upgrade system
-    -   Https upgrade
-    -   Security updates
+###### Maintain major website and develop new features
+
+-   JobSearch Website (PC)
+-   JobSearch Website (Mobile)
+-   Common Api
+-   Campaign websites
+
+###### Develop campaign website with 100% cloud-based (AWS) infrastructure
+
+###### Maintain and upgrade system
+
+-   Https upgrade
+-   Security updates
 
 ### `Web Developer` @ uitox - Taipei, Taiwan
 
