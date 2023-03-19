@@ -1,5 +1,3 @@
-# Resume
-
 ## Mou-Chun Wang
 
 ### Senior Software Engineer (Backend Development)
@@ -7,11 +5,9 @@
 ### Summary
 
 #### Over 7 year Web Develop Experience
-
 -   Backend System and api
 -   System Architecture
 -   Automation and Infrastructure
-
 #### Tech Stack
 
 -   AWS : EC2, Lambda, Api Gateway
