@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cassandra | MouWorks</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/logo.jpg">
+    <link rel="manifest" href="/photo.jpg">
+    <link rel="apple-touch-icon" href="/photo.jpg">
+    <meta name="description" content="MouWorks">
+    
+    <link rel="preload" href="/assets/css/0.styles.6fc1f265.css" as="style"><link rel="preload" href="/assets/js/app.c5f0760d.js" as="script"><link rel="preload" href="/assets/js/2.5eea6481.js" as="script"><link rel="preload" href="/assets/js/9.15183201.js" as="script"><link rel="prefetch" href="/assets/js/10.37d1b505.js"><link rel="prefetch" href="/assets/js/11.255ff5b2.js"><link rel="prefetch" href="/assets/js/12.c19f4ad4.js"><link rel="prefetch" href="/assets/js/13.51dee5d1.js"><link rel="prefetch" href="/assets/js/14.f5deceb4.js"><link rel="prefetch" href="/assets/js/15.158e07f6.js"><link rel="prefetch" href="/assets/js/16.c0e22b7f.js"><link rel="prefetch" href="/assets/js/17.c6f6ac82.js"><link rel="prefetch" href="/assets/js/18.1e369907.js"><link rel="prefetch" href="/assets/js/19.e542c007.js"><link rel="prefetch" href="/assets/js/20.4128fea2.js"><link rel="prefetch" href="/assets/js/21.ccbb2a4d.js"><link rel="prefetch" href="/assets/js/22.f97e4beb.js"><link rel="prefetch" href="/assets/js/23.b25eb1d9.js"><link rel="prefetch" href="/assets/js/24.b61eeaba.js"><link rel="prefetch" href="/assets/js/25.8b32b36a.js"><link rel="prefetch" href="/assets/js/26.02b2aaf2.js"><link rel="prefetch" href="/assets/js/27.36f10bcf.js"><link rel="prefetch" href="/assets/js/28.82c52b11.js"><link rel="prefetch" href="/assets/js/29.cbfcd92a.js"><link rel="prefetch" href="/assets/js/3.6e3a266f.js"><link rel="prefetch" href="/assets/js/30.5d77121e.js"><link rel="prefetch" href="/assets/js/31.061c2020.js"><link rel="prefetch" href="/assets/js/32.140bbe13.js"><link rel="prefetch" href="/assets/js/33.58687c71.js"><link rel="prefetch" href="/assets/js/34.d5f6f2cf.js"><link rel="prefetch" href="/assets/js/35.29e7f291.js"><link rel="prefetch" href="/assets/js/36.d5962ed0.js"><link rel="prefetch" href="/assets/js/37.20b5c141.js"><link rel="prefetch" href="/assets/js/38.c387d893.js"><link rel="prefetch" href="/assets/js/39.8dd9cc38.js"><link rel="prefetch" href="/assets/js/4.16fd69e2.js"><link rel="prefetch" href="/assets/js/40.3dedd317.js"><link rel="prefetch" href="/assets/js/41.6a2b13cc.js"><link rel="prefetch" href="/assets/js/42.c5a72565.js"><link rel="prefetch" href="/assets/js/43.414b093c.js"><link rel="prefetch" href="/assets/js/44.a7682eb8.js"><link rel="prefetch" href="/assets/js/45.3f9fd8a9.js"><link rel="prefetch" href="/assets/js/46.a89efa9a.js"><link rel="prefetch" href="/assets/js/47.cb581986.js"><link rel="prefetch" href="/assets/js/48.fd35c534.js"><link rel="prefetch" href="/assets/js/49.d6b1ed81.js"><link rel="prefetch" href="/assets/js/5.955f4afe.js"><link rel="prefetch" href="/assets/js/50.7d0c0e71.js"><link rel="prefetch" href="/assets/js/51.00012e86.js"><link rel="prefetch" href="/assets/js/52.f4ac2308.js"><link rel="prefetch" href="/assets/js/53.f7ff6956.js"><link rel="prefetch" href="/assets/js/54.117305c2.js"><link rel="prefetch" href="/assets/js/55.21b9c3e8.js"><link rel="prefetch" href="/assets/js/56.1132ac55.js"><link rel="prefetch" href="/assets/js/57.9f558bce.js"><link rel="prefetch" href="/assets/js/58.d9c5eaf9.js"><link rel="prefetch" href="/assets/js/59.82d2ad32.js"><link rel="prefetch" href="/assets/js/6.ea327f9f.js"><link rel="prefetch" href="/assets/js/7.67dac604.js"><link rel="prefetch" href="/assets/js/8.4c833c03.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6fc1f265.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">MouWorks</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="DevOps" class="dropdown-title"><span class="title">DevOps</span> <span class="arrow down"></span></button> <button type="button" aria-label="DevOps" class="mobile-dropdown-title"><span class="title">DevOps</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/deployment_questions.html" class="nav-link">
+  Deployment
+</a></li><li class="dropdown-item"><!----> <a href="/devops/linux.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/circleci.html" class="nav-link">
+  CircleCI
+</a></li><li class="dropdown-item"><!----> <a href="/devops/ansible.html" class="nav-link">
+  Ansible
+</a></li><li class="dropdown-item"><!----> <a href="/devops/deployer.html" class="nav-link">
+  Deployer
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s.html" class="nav-link">
+  k8s
+</a></li><li class="dropdown-item"><!----> <a href="/devops/eks.html" class="nav-link">
+  AWS EKS
+</a></li><li class="dropdown-item"><!----> <a href="/devops/blackfire.html" class="nav-link">
+  Blackfire效能監控
+</a></li><li class="dropdown-item"><!----> <a href="/devops/aws_cdk.html" class="nav-link">
+  AWS CDK
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s_note.html" class="nav-link">
+  k8s Note
+</a></li><li class="dropdown-item"><!----> <a href="/devops/pms.html" class="nav-link">
+  prometheus
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s_course.html" class="nav-link">
+  k8s Course
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="後端" class="dropdown-title"><span class="title">後端</span> <span class="arrow down"></span></button> <button type="button" aria-label="後端" class="mobile-dropdown-title"><span class="title">後端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/backend/ecmaScript.html" class="nav-link">
+  ECMAScript
+</a></li><li class="dropdown-item"><!----> <a href="/backend/nestjs.html" class="nav-link">
+  NestJS
+</a></li><li class="dropdown-item"><!----> <a href="/backend/DB_backup.html" class="nav-link">
+  DB備份
+</a></li><li class="dropdown-item"><!----> <a href="/backend/redis.html" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/backend/cassandra.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Cassandra
+</a></li><li class="dropdown-item"><!----> <a href="/backend/socket.html" class="nav-link">
+  Socket
+</a></li><li class="dropdown-item"><!----> <a href="/backend/queue.html" class="nav-link">
+  Queue
+</a></li><li class="dropdown-item"><!----> <a href="/backend/upgrade_to_seven.html" class="nav-link">
+  Php5升7
+</a></li><li class="dropdown-item"><!----> <a href="/backend/nodejs.html" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/backend/redisVsMc.html" class="nav-link">
+  Redis Vs Memcached
+</a></li><li class="dropdown-item"><!----> <a href="/backend/js_pattern.html" class="nav-link">
+  JS 設計模式
+</a></li><li class="dropdown-item"><!----> <a href="/backend/sql.html" class="nav-link">
+  SQL練習
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Protip" class="dropdown-title"><span class="title">Protip</span> <span class="arrow down"></span></button> <button type="button" aria-label="Protip" class="mobile-dropdown-title"><span class="title">Protip</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/protip/alias.html" class="nav-link">
+  Alias
+</a></li><li class="dropdown-item"><!----> <a href="/protip/makefile.html" class="nav-link">
+  Makefile
+</a></li><li class="dropdown-item"><!----> <a href="/protip/ssh_key.html" class="nav-link">
+  SSH-Key
+</a></li><li class="dropdown-item"><!----> <a href="/protip/setupscript.html" class="nav-link">
+  SetupScript
+</a></li><li class="dropdown-item"><!----> <a href="/protip/slowlog.html" class="nav-link">
+  SlowLog
+</a></li><li class="dropdown-item"><!----> <a href="/protip/logrotate.html" class="nav-link">
+  logrotate
+</a></li><li class="dropdown-item"><!----> <a href="/protip/php-fpm.html" class="nav-link">
+  php-fpm
+</a></li><li class="dropdown-item"><!----> <a href="/protip/ssh.html" class="nav-link">
+  SSH &amp; SCP
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Resume" class="dropdown-title"><span class="title">Resume</span> <span class="arrow down"></span></button> <button type="button" aria-label="Resume" class="mobile-dropdown-title"><span class="title">Resume</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/resume/resume_2023.html" class="nav-link">
+  Resume
+</a></li><li class="dropdown-item"><!----> <a href="/resume/resume_chinese.html" class="nav-link">
+  中文履歷
+</a></li><li class="dropdown-item"><!----> <a href="/resume/resume.html" class="nav-link">
+  _
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Study" class="dropdown-title"><span class="title">Study</span> <span class="arrow down"></span></button> <button type="button" aria-label="Study" class="mobile-dropdown-title"><span class="title">Study</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/data_structure.html" class="nav-link">
+  資料結構
+</a></li><li class="dropdown-item"><!----> <a href="/study/algo.html" class="nav-link">
+  演算法
+</a></li><li class="dropdown-item"><!----> <a href="/study/design_pattern.html" class="nav-link">
+  設計模式
+</a></li><li class="dropdown-item"><!----> <a href="/study/leetcodeAlgos.html" class="nav-link">
+  LeetCodeAlgos
+</a></li><li class="dropdown-item"><!----> <a href="/study/dailyInterviewPro.html" class="nav-link">
+  DailyInterviewPro
+</a></li><li class="dropdown-item"><!----> <a href="/study/jsdc_2017.html" class="nav-link">
+  JSDC 2017 Note
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="LeetCode" class="dropdown-title"><span class="title">LeetCode</span> <span class="arrow down"></span></button> <button type="button" aria-label="LeetCode" class="mobile-dropdown-title"><span class="title">LeetCode</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/leetCode/TwoSum_001.html" class="nav-link">
+  001 | Easy | Two Sum
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/RemoveElement_027.html" class="nav-link">
+  027 | Easy | Remove Element
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/BinarySearch_704.html" class="nav-link">
+  704 | Easy | Binary Search
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/SortedArraySquare_977.html" class="nav-link">
+  977 | Easy | SortedArraySquare
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/MinimumSizeSubArraySum_209.html" class="nav-link">
+  209 | Easy | Minimum Size SubArray Sum
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Projects" class="dropdown-title"><span class="title">Projects</span> <span class="arrow down"></span></button> <button type="button" aria-label="Projects" class="mobile-dropdown-title"><span class="title">Projects</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/projects/jobHunter.html" class="nav-link">
+  jobHunter
+</a></li><li class="dropdown-item"><!----> <a href="/projects/m1ga.html" class="nav-link">
+  M1GA
+</a></li><li class="dropdown-item"><!----> <a href="/projects/weddinghelper.html" class="nav-link">
+  WeddingHelper
+</a></li></ul></div></div><div class="nav-item"><a href="https://m0u.work" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Site
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/mouworks" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="DevOps" class="dropdown-title"><span class="title">DevOps</span> <span class="arrow down"></span></button> <button type="button" aria-label="DevOps" class="mobile-dropdown-title"><span class="title">DevOps</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/deployment_questions.html" class="nav-link">
+  Deployment
+</a></li><li class="dropdown-item"><!----> <a href="/devops/linux.html" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/circleci.html" class="nav-link">
+  CircleCI
+</a></li><li class="dropdown-item"><!----> <a href="/devops/ansible.html" class="nav-link">
+  Ansible
+</a></li><li class="dropdown-item"><!----> <a href="/devops/deployer.html" class="nav-link">
+  Deployer
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s.html" class="nav-link">
+  k8s
+</a></li><li class="dropdown-item"><!----> <a href="/devops/eks.html" class="nav-link">
+  AWS EKS
+</a></li><li class="dropdown-item"><!----> <a href="/devops/blackfire.html" class="nav-link">
+  Blackfire效能監控
+</a></li><li class="dropdown-item"><!----> <a href="/devops/aws_cdk.html" class="nav-link">
+  AWS CDK
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s_note.html" class="nav-link">
+  k8s Note
+</a></li><li class="dropdown-item"><!----> <a href="/devops/pms.html" class="nav-link">
+  prometheus
+</a></li><li class="dropdown-item"><!----> <a href="/devops/k8s_course.html" class="nav-link">
+  k8s Course
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="後端" class="dropdown-title"><span class="title">後端</span> <span class="arrow down"></span></button> <button type="button" aria-label="後端" class="mobile-dropdown-title"><span class="title">後端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/backend/ecmaScript.html" class="nav-link">
+  ECMAScript
+</a></li><li class="dropdown-item"><!----> <a href="/backend/nestjs.html" class="nav-link">
+  NestJS
+</a></li><li class="dropdown-item"><!----> <a href="/backend/DB_backup.html" class="nav-link">
+  DB備份
+</a></li><li class="dropdown-item"><!----> <a href="/backend/redis.html" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/backend/cassandra.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Cassandra
+</a></li><li class="dropdown-item"><!----> <a href="/backend/socket.html" class="nav-link">
+  Socket
+</a></li><li class="dropdown-item"><!----> <a href="/backend/queue.html" class="nav-link">
+  Queue
+</a></li><li class="dropdown-item"><!----> <a href="/backend/upgrade_to_seven.html" class="nav-link">
+  Php5升7
+</a></li><li class="dropdown-item"><!----> <a href="/backend/nodejs.html" class="nav-link">
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/backend/redisVsMc.html" class="nav-link">
+  Redis Vs Memcached
+</a></li><li class="dropdown-item"><!----> <a href="/backend/js_pattern.html" class="nav-link">
+  JS 設計模式
+</a></li><li class="dropdown-item"><!----> <a href="/backend/sql.html" class="nav-link">
+  SQL練習
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Protip" class="dropdown-title"><span class="title">Protip</span> <span class="arrow down"></span></button> <button type="button" aria-label="Protip" class="mobile-dropdown-title"><span class="title">Protip</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/protip/alias.html" class="nav-link">
+  Alias
+</a></li><li class="dropdown-item"><!----> <a href="/protip/makefile.html" class="nav-link">
+  Makefile
+</a></li><li class="dropdown-item"><!----> <a href="/protip/ssh_key.html" class="nav-link">
+  SSH-Key
+</a></li><li class="dropdown-item"><!----> <a href="/protip/setupscript.html" class="nav-link">
+  SetupScript
+</a></li><li class="dropdown-item"><!----> <a href="/protip/slowlog.html" class="nav-link">
+  SlowLog
+</a></li><li class="dropdown-item"><!----> <a href="/protip/logrotate.html" class="nav-link">
+  logrotate
+</a></li><li class="dropdown-item"><!----> <a href="/protip/php-fpm.html" class="nav-link">
+  php-fpm
+</a></li><li class="dropdown-item"><!----> <a href="/protip/ssh.html" class="nav-link">
+  SSH &amp; SCP
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Resume" class="dropdown-title"><span class="title">Resume</span> <span class="arrow down"></span></button> <button type="button" aria-label="Resume" class="mobile-dropdown-title"><span class="title">Resume</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/resume/resume_2023.html" class="nav-link">
+  Resume
+</a></li><li class="dropdown-item"><!----> <a href="/resume/resume_chinese.html" class="nav-link">
+  中文履歷
+</a></li><li class="dropdown-item"><!----> <a href="/resume/resume.html" class="nav-link">
+  _
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Study" class="dropdown-title"><span class="title">Study</span> <span class="arrow down"></span></button> <button type="button" aria-label="Study" class="mobile-dropdown-title"><span class="title">Study</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/data_structure.html" class="nav-link">
+  資料結構
+</a></li><li class="dropdown-item"><!----> <a href="/study/algo.html" class="nav-link">
+  演算法
+</a></li><li class="dropdown-item"><!----> <a href="/study/design_pattern.html" class="nav-link">
+  設計模式
+</a></li><li class="dropdown-item"><!----> <a href="/study/leetcodeAlgos.html" class="nav-link">
+  LeetCodeAlgos
+</a></li><li class="dropdown-item"><!----> <a href="/study/dailyInterviewPro.html" class="nav-link">
+  DailyInterviewPro
+</a></li><li class="dropdown-item"><!----> <a href="/study/jsdc_2017.html" class="nav-link">
+  JSDC 2017 Note
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="LeetCode" class="dropdown-title"><span class="title">LeetCode</span> <span class="arrow down"></span></button> <button type="button" aria-label="LeetCode" class="mobile-dropdown-title"><span class="title">LeetCode</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/leetCode/TwoSum_001.html" class="nav-link">
+  001 | Easy | Two Sum
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/RemoveElement_027.html" class="nav-link">
+  027 | Easy | Remove Element
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/BinarySearch_704.html" class="nav-link">
+  704 | Easy | Binary Search
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/SortedArraySquare_977.html" class="nav-link">
+  977 | Easy | SortedArraySquare
+</a></li><li class="dropdown-item"><!----> <a href="/leetCode/MinimumSizeSubArraySum_209.html" class="nav-link">
+  209 | Easy | Minimum Size SubArray Sum
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Projects" class="dropdown-title"><span class="title">Projects</span> <span class="arrow down"></span></button> <button type="button" aria-label="Projects" class="mobile-dropdown-title"><span class="title">Projects</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/projects/jobHunter.html" class="nav-link">
+  jobHunter
+</a></li><li class="dropdown-item"><!----> <a href="/projects/m1ga.html" class="nav-link">
+  M1GA
+</a></li><li class="dropdown-item"><!----> <a href="/projects/weddinghelper.html" class="nav-link">
+  WeddingHelper
+</a></li></ul></div></div><div class="nav-item"><a href="https://m0u.work" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Site
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/mouworks" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Cassandra</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/backend/cassandra.html#安裝教學" class="sidebar-link">安裝教學</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/backend/cassandra.html#required" class="sidebar-link">Required:</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/backend/cassandra.html#安裝-docker-cassandra" class="sidebar-link">安裝 Docker + Cassandra</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#本機運行" class="sidebar-link">本機運行</a></li></ul></li><li><a href="/backend/cassandra.html#安裝-cassandra-php-pecl-extension" class="sidebar-link">安裝 Cassandra PHP PECL Extension</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/backend/cassandra.html#安裝-php-套件" class="sidebar-link">安裝 php 套件</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#命令列執行-cassandra" class="sidebar-link">命令列執行 cassandra</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#線上環境-cassandra-on-docker" class="sidebar-link">線上環境 Cassandra on docker</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#dev-環境-cassandra-on-docker" class="sidebar-link">DEV 環境 Cassandra on docker</a></li></ul></li><li><a href="/backend/cassandra.html#cassandra-維運" class="sidebar-link">Cassandra 維運</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/backend/cassandra.html#分段停機" class="sidebar-link">分段停機</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#節點修復" class="sidebar-link">節點修復</a></li><li class="sidebar-sub-header"><a href="/backend/cassandra.html#備份" class="sidebar-link">備份</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="cassandra"><a href="#cassandra" class="header-anchor">#</a> Cassandra</h1> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p><strong>特別感謝</strong>  此為 <code>rainlay</code> 大分享技術筆記, 在此感謝! @https://github.com/rainlay</p></div> <h2 id="安裝教學"><a href="#安裝教學" class="header-anchor">#</a> 安裝教學</h2> <p>公司使用 Cassandra 的方式為 Docker + Cassandra，Cassandra 版本為 3.11.3，所以請先安裝 Docker.</p> <h2 id="required"><a href="#required" class="header-anchor">#</a> Required:</h2> <ul><li>參考 <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank" rel="noopener noreferrer">Docker安裝文件 @docker文件<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li>參考 <a href="https://hub.docker.com/_/cassandra/" target="_blank" rel="noopener noreferrer">Pull Cassandra Docker Image 文件<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h3 id="安裝-docker-cassandra"><a href="#安裝-docker-cassandra" class="header-anchor">#</a> 安裝 Docker + Cassandra</h3> <p>可至專案目錄下執行</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">sh</span> resources/cassandra_docker/cassandra-install.sh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>cassandra-install.sh</li></ul> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+
+<span class="token comment"># ------ install docker ------</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> update
+
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token punctuation">\</span>
+    apt-transport-https <span class="token punctuation">\</span>
+    ca-certificates <span class="token punctuation">\</span>
+    <span class="token function">curl</span> <span class="token punctuation">\</span>
+    software-properties-common
+
+<span class="token function">curl</span> <span class="token parameter variable">-fsSL</span> https://download.docker.com/linux/ubuntu/gpg <span class="token operator">|</span> <span class="token function">sudo</span> apt-key <span class="token function">add</span> -
+
+<span class="token function">sudo</span> apt-key fingerprint 0EBFCD88
+
+<span class="token function">sudo</span> add-apt-repository <span class="token punctuation">\</span>
+   <span class="token string">&quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   <span class="token variable"><span class="token variable">$(</span>lsb_release <span class="token parameter variable">-cs</span><span class="token variable">)</span></span> \
+   stable&quot;</span>
+
+<span class="token function">sudo</span> <span class="token function">apt-get</span> update
+
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> docker-ce
+
+<span class="token comment"># ------ install cassandra ------</span>
+
+<span class="token function">sudo</span> <span class="token function">docker</span> pull cassandra
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h3 id="本機運行"><a href="#本機運行" class="header-anchor">#</a> 本機運行</h3> <p>可使用執行指令啟動</p> <div class="language- extra-class"><pre><code>sudo docker run --name COMPANY-cassandra --net=host -v /data/cassandra:/var/lib/cassandra -d --ulimit nofile=100000:100000 --ulimit nproc=32768 --ulimit memlock=-1:-1  --restart=on-failure:10 cassandra:3.11.3
+</code></pre></div><p>或使用 Script執行</p> <div class="language- extra-class"><pre><code>sudo sh resources/cassandra_docker/localhost/cassandra-run.sh
+</code></pre></div><ul><li>cassandra-run.sh</li></ul> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+<span class="token function">sudo</span> <span class="token function">docker</span> run <span class="token parameter variable">--name</span> COMPANY-cassandra <span class="token parameter variable">--net</span><span class="token operator">=</span>host <span class="token parameter variable">-e</span> <span class="token string">&quot;TZ=Asia/Taipei&quot;</span> <span class="token parameter variable">-v</span> /data/cassandra:/var/lib/cassandra <span class="token parameter variable">-d</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nofile</span><span class="token operator">=</span><span class="token number">100000</span>:100000 <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nproc</span><span class="token operator">=</span><span class="token number">32768</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">memlock</span><span class="token operator">=</span>-1:-1  <span class="token parameter variable">--restart</span><span class="token operator">=</span>on-failure:10 cassandra:3.11.3
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="安裝-cassandra-php-pecl-extension"><a href="#安裝-cassandra-php-pecl-extension" class="header-anchor">#</a> 安裝 Cassandra PHP PECL Extension</h2> <p>需注意 PHP 版本, Cassandra PHP DRIVER 最高只支援到 7.1</p> <p>參考下列指令安裝（安裝方式可能因環境不同而不同）</p> <div class="language- extra-class"><pre><code>sudo apt-get -y install libgmp-dev
+
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1.23.0/libuv1-dev_1.23.0-1_amd64.deb
+
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/dependencies/libuv/v1.23.0/libuv1_1.23.0-1_amd64.deb
+
+sudo dpkg -i libuv1_1.23.0-1_amd64.deb
+
+sudo dpkg -i libuv1-dev_1.23.0-1_amd64.deb
+
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.10.0/cassandra-cpp-driver_2.10.0-1_amd64.deb
+
+wget http://downloads.datastax.com/cpp-driver/ubuntu/16.04/cassandra/v2.10.0/cassandra-cpp-driver-dev_2.10.0-1_amd64.deb
+
+sudo dpkg -i cassandra-cpp-driver_2.10.0-1_amd64.deb
+
+sudo dpkg -i cassandra-cpp-driver-dev_2.10.0-1_amd64.deb
+
+rm libuv1_1.23.0-1_amd64.deb
+
+rm libuv1-dev_1.23.0-1_amd64.deb
+
+rm cassandra-cpp-driver_2.10.0-1_amd64.deb
+
+rm cassandra-cpp-driver-dev_2.10.0-1_amd64.deb
+
+# 安裝 cassandra extenstion
+sudo pecl install cassandra
+
+sudo su
+
+# 設定 php cassandra
+echo -e &quot;; DataStax PHP Driver\nextension=cassandra.so&quot; &gt;&gt; `php --ini | grep &quot;Loaded Configuration&quot; | sed -e &quot;s|.*:\s*||&quot;`
+
+echo -e &quot;; DataStax PHP Driver\nextension=cassandra.so&quot; &gt;&gt; /etc/php/7.1/fpm/php.ini
+
+# 檢查 cassandra extension 有無安裝成功
+php -m | grep cassandra
+php -i | grep -A 10 &quot;^cassandra$&quot;
+</code></pre></div><h3 id="安裝-php-套件"><a href="#安裝-php-套件" class="header-anchor">#</a> 安裝 php 套件</h3> <p>安裝 <code>moarty/cassandra-php-stubs</code> 套件</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>composer install
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>說明文件</p> <p><a href="https://docs.datastax.com/en/developer/php-driver/1.3/" target="_blank" rel="noopener noreferrer">https://docs.datastax.com/en/developer/php-driver/1.3/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/datastax/php-driver" target="_blank" rel="noopener noreferrer">https://github.com/datastax/php-driver<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="命令列執行-cassandra"><a href="#命令列執行-cassandra" class="header-anchor">#</a> 命令列執行 cassandra</h3> <p>先進入 cassandra 的 docker 環境裡面</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>$ sudo docker exec -it COMPANY-cassandra bash
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>再來輸入 cassandra 的 bash 指令</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>$ cqlsh
+Connected to Test Cluster at 127.0.0.1:9042.
+[cqlsh 5.0.1 | Cassandra 3.11.3 | CQL spec 3.4.4 | Native protocol v4]
+Use HELP for help.
+cqlsh&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="線上環境-cassandra-on-docker"><a href="#線上環境-cassandra-on-docker" class="header-anchor">#</a> 線上環境 Cassandra on docker</h3> <p>Cassandra-0 (seed) 10.140.0.29</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> run <span class="token parameter variable">--name</span> COMPANY-cassandra <span class="token parameter variable">--net</span><span class="token operator">=</span>host <span class="token parameter variable">-v</span> /data/cassandra:/var/lib/cassandra <span class="token parameter variable">-v</span> /etc/cassandra/cassandra.yaml:/etc/cassandra/cassandra.yaml <span class="token parameter variable">-d</span> <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_BROADCAST_ADDRESS</span><span class="token operator">=</span><span class="token number">10.140</span>.0.29 <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_CLUSTER_NAME</span><span class="token operator">=</span>COMPANY_cluster <span class="token parameter variable">-e</span> <span class="token string">&quot;TZ=Asia/Taipei&quot;</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nofile</span><span class="token operator">=</span><span class="token number">100000</span>:100000 <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nproc</span><span class="token operator">=</span><span class="token number">32768</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">memlock</span><span class="token operator">=</span>-1:-1  <span class="token parameter variable">--restart</span><span class="token operator">=</span>on-failure:10 cassandra:3.11.3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>Cassandra-1 10.140.0.30</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> run <span class="token parameter variable">--name</span> COMPANY-cassandra <span class="token parameter variable">--net</span><span class="token operator">=</span>host <span class="token parameter variable">-v</span> /data/cassandra:/var/lib/cassandra <span class="token parameter variable">-v</span> /etc/cassandra/cassandra.yaml:/etc/cassandra/cassandra.yaml <span class="token parameter variable">-d</span> <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_BROADCAST_ADDRESS</span><span class="token operator">=</span><span class="token number">10.140</span>.0.30 <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_SEEDS</span><span class="token operator">=</span><span class="token number">10.140</span>.0.29 <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_CLUSTER_NAME</span><span class="token operator">=</span>COMPANY_cluster <span class="token parameter variable">-e</span> <span class="token string">&quot;TZ=Asia/Taipei&quot;</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nofile</span><span class="token operator">=</span><span class="token number">100000</span>:100000 <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nproc</span><span class="token operator">=</span><span class="token number">32768</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">memlock</span><span class="token operator">=</span>-1:-1  <span class="token parameter variable">--restart</span><span class="token operator">=</span>on-failure:10 cassandra:3.11.3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>Cassandra-2 10.140.0.32</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> run <span class="token parameter variable">--name</span> COMPANY-cassandra <span class="token parameter variable">--net</span><span class="token operator">=</span>host <span class="token parameter variable">-v</span> /data/cassandra:/var/lib/cassandra <span class="token parameter variable">-v</span> /etc/cassandra/cassandra.yaml:/etc/cassandra/cassandra.yaml <span class="token parameter variable">-d</span> <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_BROADCAST_ADDRESS</span><span class="token operator">=</span><span class="token number">10.140</span>.0.32 <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_SEEDS</span><span class="token operator">=</span><span class="token number">10.140</span>.0.29 <span class="token parameter variable">-e</span> <span class="token assign-left variable">CASSANDRA_CLUSTER_NAME</span><span class="token operator">=</span>COMPANY_cluster <span class="token parameter variable">-e</span> <span class="token string">&quot;TZ=Asia/Taipei&quot;</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nofile</span><span class="token operator">=</span><span class="token number">100000</span>:100000 <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">nproc</span><span class="token operator">=</span><span class="token number">32768</span> <span class="token parameter variable">--ulimit</span> <span class="token assign-left variable">memlock</span><span class="token operator">=</span>-1:-1  <span class="token parameter variable">--restart</span><span class="token operator">=</span>on-failure:10 cassandra:3.11.3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>在基本的三台架構中，只指定一台 seeder ，但如果機器再增加的話，可以允許有一台(以上)的 Seeder，在 Seeder 以外的機器，啟動時要加上指令 <code>-e CASSANDRA_SEEDS=10.140.0.29</code></p> <h3 id="dev-環境-cassandra-on-docker"><a href="#dev-環境-cassandra-on-docker" class="header-anchor">#</a> DEV 環境 Cassandra on docker</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> run <span class="token parameter variable">--name</span> cassandra-dev <span class="token parameter variable">-p</span> <span class="token number">9042</span>:9042 <span class="token parameter variable">-p</span> <span class="token number">9160</span>:9160 <span class="token parameter variable">-e</span> <span class="token string">&quot;TZ=Asia/Taipei&quot;</span> <span class="token parameter variable">-v</span> /data/cassandra-dev:/var/lib/cassandra <span class="token parameter variable">-d</span> <span class="token parameter variable">--restart</span><span class="token operator">=</span>on-failure:10 cassandra:3.11.3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="cassandra-維運"><a href="#cassandra-維運" class="header-anchor">#</a> Cassandra 維運</h2> <h3 id="分段停機"><a href="#分段停機" class="header-anchor">#</a> 分段停機</h3> <p>需要將 Cassandra 停機做機器規格調整時，可採用分段停機的方式，可完成不影響服務並更新機器規格的變更。</p> <p>例如公司目前有三台 Cassandra，我們可先從 Cassandra 2 開始停機，</p> <p>最基本的停機的方式為直接將機器上的 cassandra docker 停止即可，
+如:</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> stop <span class="token punctuation">{</span>cassanda id<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>接著進入 Cassandra 0 機器, 並進入 Cassandra docker</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> <span class="token punctuation">{</span>cassandra id<span class="token punctuation">}</span> <span class="token function">bash</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>執行查看節點狀態指令</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>nodetool status
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>確認節點是否已正常下線, 狀態 (DN)，確認已下線後即可進行關機調整，
+調整後重新開機一樣執行如上的節點狀態指令，確認服務狀態是否正常上線(UN)，
+之後其他機器照一樣的步驟進行維運即可。</p> <h3 id="節點修復"><a href="#節點修復" class="header-anchor">#</a> 節點修復</h3> <p>當 Cassandra 資料有更新、刪除的時候，各個節點 node 之間可能會開始產生資料不一致的情況，因此我們會需要進行修復，維持節點資料的一致性，</p> <h4 id="指令"><a href="#指令" class="header-anchor">#</a> 指令</h4> <p>進入任意一個 cassandra docker 節點後(不須至每台主機 都執行一次)，進行修復即可。</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> <span class="token punctuation">{</span>cassandra id<span class="token punctuation">}</span> <span class="token function">bash</span>
+nodetool repair
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="備份"><a href="#備份" class="header-anchor">#</a> 備份</h3> <p>Fabric 請參考<a href="http://www.fabfile.org/" target="_blank" rel="noopener noreferrer">官方文件<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>介紹</p> <p>Cassandra 備份為每台各自備份，所以目前配合 Python Fabric 來進行多遠端 SSH 操作</p> <h4 id="執行備份"><a href="#執行備份" class="header-anchor">#</a> 執行備份</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># fab -H [host1],[host2] [task_name]</span>
+fab <span class="token parameter variable">-H</span> cassandra-0,cassandra-1,cassandra-2 cassBackup
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>-H 表示主機名稱，這邊要注意的是你的 ssh config 已經正確設定並 Mapping 好，後面則是要對應執行的任務名稱，也又是 fabfile.py 裡面的 method name。</p> <p>備份完成後會儲存在 <code>/data/cassandra_backup</code>。</p> <h4 id="todo"><a href="#todo" class="header-anchor">#</a> TODO</h4> <ol><li>資料備份至少要先找時間做過一次，然後再設定成 crontab</li> <li>repair也至少要先找時間做過一次，一樣設定成 crontab</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c5f0760d.js" defer></script><script src="/assets/js/2.5eea6481.js" defer></script><script src="/assets/js/9.15183201.js" defer></script>
+  </body>
+</html>
