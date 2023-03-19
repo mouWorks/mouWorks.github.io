@@ -6,31 +6,21 @@
 
 ### Summary
 
-#### Over 7 year Web Develop Experience.
+#### Over 7 year Web Develop Experience
 
 -   Backend System and api
 -   System Architecture
 -   Automation and Infrastructure
 
-*   3 years Javascript Backend Development (JavaScript / TypeScript)
-*   5 Years backend development experience (PHP)
-*   Large Website develop experience (e-Commerce / human-resource)
-*   Maintain site core APIs and core functions
-*   Develop new features based on business requests.
-*   DevOps: Introduce CI/CD to current workflow. Tune CI pipeline to reduce deliver time.
-    -   GitlabCI / CircleCI / TravisCI
-    -   ArgoCD
-*   Integrate Unit test
-*   Tech Stack:
-    -   AWS : EC2, Lambda, Api Gateway
-    -   GCP : GCE, GKE
-    -   IaC : Terraform, Docker, K8s
-    -   Database: Postgres, MySQL
-    -   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
-*   Testing Experience: Jest Api Testing, Test Campaign, Test Cases and Manual Testing
-*   Hackathon Winner:
-    -   2019 AWS hackNRoll 3rd place (microservices)
-    -   2016 104 Hackathon Honorable Mention
+#### Tech Stack
+
+-   AWS : EC2, Lambda, Api Gateway
+-   GCP : GCE, GKE
+-   IaC : Terraform, Docker, K8s
+-   Database: Postgres, MySQL
+-   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
+-   Testing: Jest Unit Testing
+-   DevOps: CircleCI, GitlabCI, ArgoCD
 
 ## Work Experience
 
