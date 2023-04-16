@@ -18,6 +18,7 @@ module.exports = {
       {text: 'DevOps', link: '/devops/',
         items: [
           { text: 'Deployment', link: '/devops/deployment_questions.html'},
+          { text: 'Gcloud-Docker', link: '/devops/gcloud_container.html'},
           { text: 'Linux', link: '/devops/linux.html'},
           { text: 'CircleCI', link: '/devops/circleci.html'},
           { text: 'Ansible', link: '/devops/ansible.html'},
