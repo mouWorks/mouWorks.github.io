@@ -4,7 +4,7 @@
 
 ### Summary
 
-#### Over 8 year Web Develop Experience
+#### Over 7 year Web Develop Experience
 -   Backend System and api
 -   System Architecture
 -   Infrastructure and task automation
@@ -22,7 +22,7 @@
 
 ### `Senior Software Engineer` @ WeMoScooter - Taipei, Taiwan
 
-#### 2020/01 - Now
+-   2020/01 - Now
 
 #### NodeJS / TypeScript / GCP / Kubernetes / PostgresSQL / Redis / GitlabCI / ArgoCD
 
@@ -49,7 +49,7 @@
 
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
 
-#### 2019/04 - 2019/09
+-   2019/04 - 2019/09
 
 #### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
 
@@ -62,7 +62,7 @@
 
 ### `Web Developer` @ 104 - Taipei, Taiwan
 
-#### 2016/07 - 2019/02
+-   2016/07 - 2019/02
 
 #### PHP / AWS / IDC
 
@@ -84,7 +84,7 @@
 
 ### `Web Developer` @ uitox - Taipei, Taiwan
 
-#### 2014/02 - 2016/04
+-   2014/02 - 2016/04
 
 #### PHP / IDC / Backend Development
 
@@ -93,6 +93,31 @@
 -   Maintain and enhance site-wise system core API: SaleQty API.
 -   Maintain and enhance core pages : Item page.
 -   Develop and extend in-house tools for PM and Developers
+
+### `Consultant` @ SDLC Partners - Pittsburgh, PA, USA
+
+-   2011/07 - 2012/11
+
+#### Functional Testing
+
+-   manual/automation function test including formulating test scenario and test cases, executing test cases and report, raising defect via Rational ClearQuest.
+
+### `Quality Assurance / Developer` @ Songwhale - Pittsburgh, PA, USA
+
+-   2011/04 - 2011/07
+
+#### Quality Assurance Engineer:
+
+-   Formulate test strategies for various products: web app/mobile web/commercial website.
+-   Develop and prioritize test scenarios in collaboration with business analyst and developer, execute test scripts manually or with automated tool.
+-   Analyze defect level, detailed document bugs including screenshot/reproduce steps/possible root cause.
+-   Utilize open source web UI test automation tool 'Selenium' with 'Bromine' integrated test tasking environment.
+
+#### Web Developer:
+
+-   Design website and database schema
+-   Assist document MRD( Marketing Requirement Document)
+-   Develop mobile website utilizing MySQL and Php.
 
 ### Education
 
