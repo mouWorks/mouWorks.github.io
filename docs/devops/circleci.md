@@ -38,7 +38,7 @@
         1. 需要該把 key
         2. SSH時, 用該把 Key 去登入
     * 去 `ssh` key folder, 下指令 
-    * 如: `ssh -i id_rsa_COMPANY -p 64535 3.84.47.135`
+    * 如: `ssh -i id_rsa_COMPANY -p ${PORT} ${IP}`
     * 注意每次給的 IP 和 Port 會不相同.
 :::
 

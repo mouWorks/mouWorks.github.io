@@ -17,9 +17,10 @@ module.exports = {
     nav:[ // 导航栏配置
       {text: 'DevOps', link: '/devops/',
         items: [
-          { text: 'Deployment', link: '/devops/deployment_questions.html'},
-          { text: 'Gcloud-Docker', link: '/devops/gcloud_container.html'},
+          { text: 'Gcloud in docker', link: '/devops/gcloud_container.html'},
           { text: 'VM Disk cleanup', link: '/devops/vm_cleanup.html'},
+          { text: 'DockerizeApplication', link: '/devops/dockerize.html'},
+          { text: 'Graceful shutdown', link: '/devops/graceful_shutdown.html'},
           { text: 'Linux', link: '/devops/linux.html'},
           { text: 'CircleCI', link: '/devops/circleci.html'},
           { text: 'Ansible', link: '/devops/ansible.html'},
@@ -33,7 +34,7 @@ module.exports = {
           { text: 'k8s Course', link: '/devops/k8s_course.html'},
         ]
       },
-      {text: '後端', link: '/backend/',
+      {text: 'Backend', link: '/backend/',
         items: [
           { text: 'ECMAScript', link: '/backend/ecmaScript.html'},
           { text: 'NestJS', link: '/backend/nestjs.html'},
@@ -48,6 +49,11 @@ module.exports = {
           { text: 'JS 設計模式', link: '/backend/js_pattern.html'},
           { text: 'SQL練習', link: '/backend/sql.html'}
         ]
+      },
+      {text: 'DB', link: '/db/',
+      items: [
+        { text: 'PG-cluster', link: '/protip/pg_cluster.html'}
+      ]
       },
       {text: 'Protip', link: '/protip/',
         items: [
@@ -76,6 +82,7 @@ module.exports = {
           { text: 'LeetCodeAlgos', link: '/study/leetcodeAlgos.html'},
           { text: 'DailyInterviewPro', link: '/study/dailyInterviewPro.html'},
           { text: 'JSDC 2017 Note', link: '/study/jsdc_2017.html'},
+          { text: 'DeploymentQuestions', link: '/devops/deployment_questions.html'},
         ]
       },
       {text: 'LeetCode',
@@ -94,7 +101,7 @@ module.exports = {
           { text: 'WeddingHelper', link: '/projects/weddinghelper.html'},
         ]
       },
-      {text: 'Site', link: 'https://m0u.work' }
+
     ],
     sidebar: 'auto',
     // sidebar: [

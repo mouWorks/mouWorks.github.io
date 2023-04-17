@@ -7,12 +7,12 @@
 #### Over 7 year Web Develop Experience
 -   Backend System and api
 -   System Architecture
--   Automation and Infrastructure
+-   Infrastructure and task automation
 #### Tech Stack
 
--   AWS : EC2, Lambda, Api Gateway
 -   GCP : GCE, GKE
--   IaC : Terraform, Docker, K8s
+-   AWS : EC2, Lambda, Api Gateway
+-   IaC : Docker, K8s
 -   Database: Postgres, MySQL
 -   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
 -   Testing: Jest Unit Testing
@@ -72,7 +72,7 @@
 
 -   JobSearch Website (PC)
 -   JobSearch Website (Mobile)
--   Common Api
+-   Core Api
 -   Campaign websites
 
 ##### Develop campaign website with 100% cloud-based (AWS) infrastructure
