@@ -5,9 +5,11 @@
 ### Summary
 
 #### Over 8 year Web Develop Experience
+
 -   Backend System and api
 -   System Architecture
 -   Infrastructure and task automation
+
 #### Tech Stack
 
 -   GCP : GCE, GKE
@@ -16,7 +18,7 @@
 -   Database: Postgres, MySQL
 -   Programming: NodeJS, TypeScript, ExpressJS, NestJS, PHP
 -   Testing: Jest Unit Testing
--   DevOps: CircleCI, GitlabCI, ArgoCD
+-   DevOps: GitlabCI, ArgoCD, CircleCI
 
 ## Work Experience
 
