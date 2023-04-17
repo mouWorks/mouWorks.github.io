@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  slack: circleci/slack@4.12.1
+  slack: circleci/slack@4.4.4
 
 jobs:
   build:
@@ -43,21 +43,10 @@ jobs:
             mv .circleci/circleci_deploy.sh .
             ./circleci_deploy.sh
       - slack/notify:
-          custom: |
-                {
-                  "blocks": [
-                    {
-                      "type": "section",
-                      "fields": [
-                        {
-                          "type": "Doc 內容更新完成 :) @ doc.m0u.work / mouworks.github.io",
-                          "text": "Deployed by CircleCI - By Dio.Brando.Wang",
-                          "emoji": true
-                        }
-                      ]
-                    }
-                  ]
-                }
+          event: always 
+          channel: circle_ci 
+          ignore_errors: true 
+          custom: Doc 內容更新完成 :) @ doc.m0u.work / mouworks.github.io
 workflows:
   version: 2.1
   build_and_auto_deploy:
