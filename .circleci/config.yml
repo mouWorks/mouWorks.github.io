@@ -47,7 +47,7 @@ jobs:
           message: "Deployed by CircleCI - By Dio.Brando.Wang"
 #          mentions: "USERID1,USERID2," # Optional: Enter the Slack IDs of any user or group (sub_team) to be mentioned
           color: "#42e2f4" # Optional: Assign custom colors for each notification
-          webhook: ${SLACK_WEBHOOK} # Optional: Enter a specific webhook here or the default will use $SLACK_WEBHOOK
+          webhook: ${SLACK_WEBHOOK_NEW} # Optional: Enter a specific webhook here or the default will use $SLACK_WEBHOOK
 workflows:
   version: 2.1
   build_and_auto_deploy:
