@@ -25,6 +25,8 @@ module.exports = {
           { text: 'CircleCI', link: '/devops/circleci.html'},
           { text: 'Ansible', link: '/devops/ansible.html'},
           { text: 'Deployer', link: '/devops/deployer.html'},
+          { text: 'GKE Cloud onboard', link: '/devops/gke_cloud_onboard.html'},
+          { text: 'Dcard Backend Scaling', link: '/devops/dcard_backend_scale.html'},
           { text: 'k8s', link: '/devops/k8s.html'},
           { text: 'AWS EKS', link: '/devops/eks.html'},
           { text: 'Blackfire效能監控', link: '/devops/blackfire.html'},
