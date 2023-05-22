@@ -49,11 +49,28 @@
 1. Designed and developed systems and features based on PM requirements
 2. Built an in-house reporting and monitoring system for instant PM feedback.
 
+#### Projects at work
+    -   Core System
+        -   Account System Upgrade: extend and support thirdparty login (Apple/LINE)
+        -   Refactor Legacy JavaScript Code to TypeScript
+        -   User Register System upgrade (2.0)
+        -   New Platform for Goverment 
+        -   ParkingLot system improvement and enhancement
+        -   Other Core System improvements
+    -   Infrastructure:
+        -   Dockerize Core Application
+        -   Migrate Core Application from VM to Kubernetes
+        -   Utilize Queue for features
+        -   Research DB cluster solutions
+    -   Marketing Campaigns
+        -   Missing Campaign System
+        -   Yearly Rewind for users
+
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
 
 #### 2019/04 - 2019/09
 
-#### NodeJS / TypeScript / GCP / MySQL / CircleCI / WebSocket / PhpUnit
+#### PHP / GCP / MySQL / CircleCI / WebSocket / PhpUnit
 
 #### BE Develop and infra improvement
 
@@ -106,10 +123,10 @@
 
 #### [jobHunter - 2019 AWS HackNRoll 3rd place](../projects/jobHunter.md)
 
--   AWS Infra
--   Dockerized w/Chatbot integration
+-   AWS Infra with CDK, ECS, RDS, and lambda
+-   Dockerized application w/Chatbot integration
 
 #### [M1GA - 2016 104 Hackathon Honorable mention](../projects/m1ga.html)
 
 -   MobileWeb design
--   Dockerized
+-   Dockerized application
