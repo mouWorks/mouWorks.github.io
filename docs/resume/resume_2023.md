@@ -50,21 +50,22 @@
 2. Built an in-house reporting and monitoring system for instant PM feedback.
 
 #### Projects at work
-    -   Core System
-        -   Account System Upgrade: extend and support thirdparty login (Apple/LINE)
-        -   Refactor Legacy JavaScript Code to TypeScript
-        -   User Register System upgrade (2.0)
-        -   New Platform for Goverment 
-        -   ParkingLot system improvement and enhancement
-        -   Other Core System improvements
-    -   Infrastructure:
-        -   Dockerize Core Application
-        -   Migrate Core Application from VM to Kubernetes
-        -   Utilize Queue for features
-        -   Research DB cluster solutions
-    -   Marketing Campaigns
-        -   Missing Campaign System
-        -   Yearly Rewind for users
+
+-   Core System
+    -   Account System Upgrade: extend and support thirdparty login (Apple/LINE)
+    -   Refactor Legacy JavaScript Code to TypeScript
+    -   User Register System upgrade (2.0)
+    -   New Platform for Goverment
+    -   ParkingLot system improvement and enhancement
+    -   Other Core System improvements
+-   Infrastructure:
+    -   Dockerize Core Application
+    -   Migrate Core Application from VM to Kubernetes
+    -   Utilize Queue for features
+    -   Research DB cluster solutions
+-   Marketing Campaigns
+    -   Missing Campaign System
+    -   Yearly Rewind for users
 
 ### `Senior Backend Developer` @ Zuvio - Taipei, Taiwan
 
