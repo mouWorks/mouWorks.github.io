@@ -18,6 +18,7 @@ module.exports = {
       {text: 'DevOps', link: '/devops/',
         items: [
           { text: 'Gcloud in docker', link: '/devops/gcloud_container.html'},
+          { text: 'Local gitlab Runner', link: '/devops/local_gitlab_runner.html'},
           { text: 'VM Disk cleanup', link: '/devops/vm_cleanup.html'},
           { text: 'DockerizeApplication', link: '/devops/dockerize.html'},
           { text: 'Graceful shutdown', link: '/devops/graceful_shutdown.html'},
