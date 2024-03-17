@@ -74,6 +74,7 @@ module.exports = {
       {text: 'Resume',
         items: [
           { text: 'Resume', link: '/resume/resume_2023.html'},
+          { text: 'Resume2024', link: '/resume/resume_2024.html'},
           { text: '中文履歷', link: '/resume/resume_chinese.html'},
           { text: '_', link: '/resume/resume.html'},
         ]
